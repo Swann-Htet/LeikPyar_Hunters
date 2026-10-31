@@ -1,8 +1,5 @@
 # Leikpyar Hunters (Spectral Agents) - Field Manual
 
-> **Play it now, in your browser (phone or PC): <https://leikpyarhunters.org/play/>**
-> Website, 3D gallery and leaderboard: <https://leikpyarhunters.org/>
-
 <p align="center">
   <img src="docs/poster.webp" width="460" alt="Leikpyar Hunters (Spectral Agents) - Spells are obsolete. Science is the new hunt.">
 </p>
@@ -91,7 +88,8 @@ Unity/            the game project: C# scripts, shaders, WebGL plugins, the 3 sc
 Website/          the website (HTML/CSS/JS), the admin panel, and the Python server
 Deploy/           the upload tools (no passwords in them)
 TECHNICAL_NOTES.md   how it is built (architecture, systems, WebGL, server, security)
-LICENSE.md        rights and third-party credits
+LICENSE.md        rights
+ASSETS_AND_LICENSES.md   the declaration of every asset: ours, third-party, fonts, tools, and their licences
 ```
 
 The Unity folder contains **our own code, scenes, prefabs, materials and project settings**. The 3D models, textures, sounds and the paid or third-party packages
@@ -107,10 +105,10 @@ shows missing models until the art is added. See `TECHNICAL_NOTES.md` section 11
 | Developer | Swan Htet |
 | 3D Art | May Thinzar Khin |
 
-Full credits (third-party models, effects, fonts and tools) are in [`LICENSE.md`](LICENSE.md) and on the website.
+Full credits (third-party models, effects, fonts and tools) are in [`ASSETS_AND_LICENSES.md`](ASSETS_AND_LICENSES.md).
 
 ## 10. LICENSE
 
 Copyright (c) 2026 Leikpyar Hunters / Round Table Team. **All rights reserved.** Each creator keeps the rights to their own part.
 The code is published so the Myanmar Game Jam 2026 judges and the community can read it. Copying, reuse or redistribution
-needs written permission. See [`LICENSE.md`](LICENSE.md).
+needs written permission. See [`LICENSE.md`](LICENSE.md) and [`ASSETS_AND_LICENSES.md`](ASSETS_AND_LICENSES.md).

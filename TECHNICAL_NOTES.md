@@ -122,7 +122,7 @@ The page is served through `serve_html`, which puts the texts, pictures and cred
 
 ```
 Unity: File > Build Profiles > Web > Build to D:\PRO
-python Deploy/deploy_pro.py     # the game build -> https://leikpyarhunters.org/play/
+python Deploy/deploy_pro.py     # the game build -> /play/ on the server
 python Deploy/deploy_web.py     # the website + server (only changed files are sent)
 ```
 The upload tools use an SSH key (`~/.ssh/lh_deploy`) or the `LH_SSH_PASSWORD` variable. No password is stored in a file.

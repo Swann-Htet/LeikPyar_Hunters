@@ -36,7 +36,7 @@ The 3D models, textures, sounds, music and artwork of the game are **not** in th
 | `<model-viewer>` | Google (Apache License 2.0) | modelviewer.dev |
 | Fonts: Audiowide, DM Sans, Inter, Space Grotesk, Cinzel, Rajdhani, Metal Mania, Special Elite | their authors (SIL Open Font License) | Google Fonts |
 
-Each of these keeps the licence its author chose. The credits with links are also on <https://leikpyarhunters.org/#license>.
+Each of these keeps the licence its author chose. The full list is in `ASSETS_AND_LICENSES.md`, and the credits with links are also on the game's website.
 
 ## Disclaimer
 
