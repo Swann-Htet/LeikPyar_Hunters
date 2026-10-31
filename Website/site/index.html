@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.className = "js";</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Leikpyar Hunters - Spectral Agents</title>
+  <script src="/js/guard.js?v=1"></script>
+  <meta name="description" content="Leikpyar Hunters: a Myanmar horror game. Work the night shift as a spectral agent: scan the house, pull the orbs with the Phantom Gun, seal the souls and climb the leaderboard.">
+  <meta name="theme-color" content="#0b0705">
+  <meta property="og:title" content="Leikpyar Hunters - Spectral Agents">
+  <meta property="og:description" content="A Myanmar horror game. Survive the night. Catch the souls. Play in your browser on phone or PC.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leikpyarhunters.org/">
+  <meta property="og:site_name" content="Leikpyar Hunters">
+  <meta property="og:image" content="https://leikpyarhunters.org/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Leikpyar Hunters - Spectral Agents, a Myanmar horror game">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Leikpyar Hunters - Spectral Agents">
+  <meta name="twitter:description" content="A Myanmar horror game. Survive the night. Catch the souls. Play in your browser on phone or PC.">
+  <meta name="twitter:image" content="https://leikpyarhunters.org/img/og-image.jpg">
+  <link rel="canonical" href="https://leikpyarhunters.org/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Leikpyar Hunters - Spectral Agents","url":"https://leikpyarhunters.org/","image":"https://leikpyarhunters.org/img/og-image.jpg","genre":"Horror","gamePlatform":["Web browser","Android","iOS","PC"],"playMode":"SinglePlayer","inLanguage":["en","my"],"description":"A Myanmar horror game. Work the night shift as a spectral agent, pull the glowing souls out of the dark and survive until dawn."}</script>
+  <link rel="icon" href="/favicon.ico?v=3" sizes="any">
+  <link rel="icon" href="/img/favicon-32.png?v=3" type="image/png" sizes="32x32">
+  <link rel="icon" href="/img/favicon-192.png?v=3" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png?v=3">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" href="/fonts/DMSans-latin.woff2?v=1" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/site.css?v=5">
+  <link rel="stylesheet" href="/css/fsguide.css?v=4">
+</head>
+<body>
+
+<!-- the icons (one sprite, stroke style) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12 19 5"/></symbol>
+    <symbol id="i-crosshair" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7 10l5 5 5-5M4.5 20.5h15"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17.5 19.5 7"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M10.8 12.2 20 3M16 7l3 3"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 5H4v2a3 3 0 0 0 3 3M17 5h3v2a3 3 0 0 1-3 3"/></symbol>
+    <symbol id="i-ghost" viewBox="0 0 24 24"><path d="M5 21V11a7 7 0 0 1 14 0v10l-3.5-2.5L12 21l-3.5-2.5z"/><path d="M9.5 11h.01M14.5 11h.01"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+    <symbol id="i-male" viewBox="0 0 24 24"><circle cx="10" cy="14" r="5.5"/><path d="M14 10 20.500 3.500M15 3.500h5.500V9"/></symbol>
+    <symbol id="i-female" viewBox="0 0 24 24"><circle cx="12" cy="8.500" r="5.500"/><path d="M12 14v7.500M8.500 18h7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.2"/><path d="M11 18.5h2"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="12.5" rx="2"/><path d="M8 21h8M12 16.5V21"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 21H5.5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2H9M16 17l5-5-5-5M21 12H9"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6.5 10h.01M10 10h.01M14 10h.01M17.5 10h.01M7 14h10"/></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 3 3.5 7.5v9L12 21l8.5-4.5v-9z"/><path d="M12 12 3.5 7.5M12 12l8.5-4.5M12 12v9"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 21c4 0 6.5-2.6 6.5-6 0-2.2-1.2-3.8-2.5-5.2-.6 1.2-1.4 1.7-2.2 1.7 0-3-1.6-5.6-3.8-7.5C10.5 7.700 6 10.500 6 15c0 3.400 2.500 6 6 6z"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12.5" rx="2.2"/><path d="M8.500 7.500V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.500M3.500 13h17"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.500h.01"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4.500h6V7M6.500 7l1 13h9l1-13M10 11v5M14 11v5"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#hero" aria-label="Leikpyar Hunters, home">
+      <img class="brand-mark" src="/img/logo-symbol.png?v=3" alt="" width="40" height="40" decoding="async" draggable="false">
+      <span class="brand-text">Leikpyar <b>Hunters</b></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#night">The night</a>
+      <a href="#play">Play</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#scores">High scores</a>
+      <a href="#agent">Agent</a>
+      <a href="#rights">License</a>
+    </nav>
+    <div class="top-actions">
+      <div class="lang" role="group" aria-label="Language" data-no-i18n>
+        <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+        <button type="button" data-lang="my" aria-pressed="false" lang="my">MM</button>
+      </div>
+      <button class="chip-btn" id="agentChip" type="button" aria-label="Agent account">
+        <svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>
+        <span id="agentChipText">Sign in</span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="/play/"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>Play</a>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open the menu" aria-expanded="false" aria-controls="nav">
+        <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO ---------------------------------------------------------------------------------- -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="beam b1"></div><div class="beam b2"></div><div class="beam b3"></div>
+      <canvas id="dust"></canvas>
+      <div class="grain"></div>
+      <div class="vignette"></div>
+    </div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="eyebrow"><svg class="ico" aria-hidden="true"><use href="#i-moon"/></svg>A Myanmar horror game</p>
+        <h1 class="hero-title">Leikpyar<span> Hunters</span></h1>
+        <p class="hero-sub">You are a spectral agent on the night shift. Scan the old house, pull the glowing souls out of the dark, seal them and survive until dawn.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/play/"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>Play now</a>
+          <a class="btn btn-ghost" href="#scores"><svg class="ico" aria-hidden="true"><use href="#i-trophy"/></svg>High scores</a>
+          <button class="btn btn-ghost" type="button" data-fsg-open><svg class="ico" aria-hidden="true"><use href="#i-expand"/></svg>Full screen on phone</button>
+        </div>
+        <ul class="hero-meta" aria-label="Facts">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Phone</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-monitor"/></svg>PC</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download once</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>Agent ID</li>
+        </ul>
+      </div>
+
+      <div class="hero-art">
+        <div class="frame">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <model-viewer id="heroOrb" class="viewer hero-view on" orientation="0deg -90deg 0deg" alt="A 3D model of the game"
+            auto-rotate rotation-per-second="22deg" interaction-prompt="none" disable-zoom disable-pan
+            shadow-intensity="0" exposure="0.6" environment-image="neutral"
+            camera-orbit="30deg 78deg auto" loading="eager" reveal="auto"></model-viewer>
+          <div class="frame-tag"><svg class="ico" aria-hidden="true"><use href="#i-ghost"/></svg>Loading</div>
+          <div class="frame-credit">Model by May Thinzar Khin</div>
+          <div class="frame-dots" id="heroDots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- THE NIGHT ----------------------------------------------------------------------------- -->
+  <section class="section" id="night">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Your shift</p>
+        <h2>Detect. Catch. Seal. Upgrade.</h2>
+        <p class="lead">Every night in the house follows the same work. Learn it once and the dark gets easier.</p>
+      </header>
+
+      <div class="grid4">
+        <article class="card reveal">
+          <span class="num">01</span>
+          <svg class="ico ico-lg" aria-hidden="true"><use href="#i-radar"/></svg>
+          <h3>Detect</h3>
+          <p>Take out the EMF scanner and switch it on. Its lights climb as a ghost gets closer, and the red light means she is right here.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">02</span>
+          <svg class="ico ico-lg" aria-hidden="true"><use href="#i-crosshair"/></svg>
+          <h3>Catch</h3>
+          <p>The Phantom Gun pulls an orb out of the dark. Hold the pull, keep it aimed, and watch the heat: a hot gun lets the orb run.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">03</span>
+          <svg class="ico ico-lg" aria-hidden="true"><use href="#i-box"/></svg>
+          <h3>Seal</h3>
+          <p>Walk the orb to the generator. It makes a MEP capsule. Put the MEP in a Faraday cage and hand it in at the Drop Table.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">04</span>
+          <svg class="ico ico-lg" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+          <h3>Upgrade</h3>
+          <p>The NPC checks your cage and gives you a point. Spend it on the gun, the EM unit, the MEP or the radio.</p>
+        </article>
+      </div>
+
+      <div class="timeline reveal" aria-label="One night">
+        <div class="tl-item"><svg class="ico" aria-hidden="true"><use href="#i-moon"/></svg><b>8 PM</b><span>The ghosts appear. The orbs hide in the rooms.</span></div>
+        <div class="tl-item"><svg class="ico" aria-hidden="true"><use href="#i-ghost"/></svg><b>10 PM</b><span>The woman starts to walk the house. Hide when she comes.</span></div>
+        <div class="tl-item"><svg class="ico" aria-hidden="true"><use href="#i-sun"/></svg><b>6 AM</b><span>Dawn. You survived the night. The scanner battery is charged.</span></div>
+        <div class="tl-item"><svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg><b>7 AM to 4 PM</b><span>The NPC is at the table. Hand in cages and upgrade.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAY ---------------------------------------------------------------------------------- -->
+  <section class="section alt" id="play">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Play</p>
+        <h2>Download once. Play every night.</h2>
+        <p class="lead">The game runs in your browser. Its files are kept on your device, so the next visit starts at once. Your agent account works here and in the game.</p>
+      </header>
+
+      <div class="play-grid">
+        <div class="panel reveal" id="gamePanel">
+          <div class="panel-head">
+            <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>
+            <h3>Game files</h3>
+            <span class="pill" id="cacheState">Checking</span>
+          </div>
+          <p class="muted" id="cacheText">Looking at this device.</p>
+          <div class="meter" id="cacheMeter" hidden><i id="cacheBar"></i></div>
+          <div class="meter-row" id="cacheRow" hidden><span id="cachePct">0%</span><span id="cacheSize"></span></div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="/play/"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>Play now</a>
+            <button class="btn btn-ghost" id="prepareBtn" type="button"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download now</button>
+            <button class="btn btn-quiet" id="clearBtn" type="button" hidden><svg class="ico" aria-hidden="true"><use href="#i-trash"/></svg>Remove files</button>
+          </div>
+          <p class="note"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span id="cacheNote">A small cookie remembers which version you have.</span></p>
+        </div>
+
+        <div class="panel reveal">
+          <div class="panel-head">
+            <svg class="ico" aria-hidden="true"><use href="#i-keyboard"/></svg>
+            <h3>Controls</h3>
+            <span class="pill">PC</span>
+          </div>
+          <ul class="keys">
+            <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>Move</span></li>
+            <li><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><span>Gun, scanner, injector</span></li>
+            <li><kbd>Click</kbd><span>Pull the ghost, use the injector</span></li>
+            <li><kbd>O</kbd><span>Scanner on or off</span></li>
+            <li><kbd>T</kbd><span>Torch</span></li>
+            <li><kbd>B</kbd><span>Backpack</span></li>
+            <li><kbd>F</kbd><kbd>E</kbd><span>Use, take</span></li>
+            <li><kbd>H</kbd><span>Hide under a bed or in a wardrobe</span></li>
+            <li><kbd>U</kbd><span>Upgrades, at the NPC</span></li>
+          </ul>
+          <p class="note"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>On a phone you get a joystick, a look pad and big buttons. Tap the bar at the bottom for the gun, scanner and injector.</span></p>
+          <p class="note fsg-row"><svg class="ico" aria-hidden="true"><use href="#i-expand"/></svg><span>No browser bar on your phone?</span> <button class="btn btn-ghost btn-sm" type="button" data-fsg-open>How to go full screen</button></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY ------------------------------------------------------------------------------- -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Art from the house</h2>
+        <p class="lead">The house and the props of the game were modeled by May Thinzar Khin. Turn them with your finger or the mouse. They can be viewed on this page only, they cannot be downloaded.</p>
+      </header>
+
+      <div class="gallery" id="gallery-grid" aria-live="polite"></div>
+
+      <p class="note center reveal"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><span>Protected art. All rights reserved, see the <a href="#rights">license</a>.</span></p>
+    </div>
+  </section>
+
+  <!-- HIGH SCORES --------------------------------------------------------------------------- -->
+  <section class="section alt" id="scores">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Leaderboard</p>
+        <h2>High scores</h2>
+        <p class="lead">One best night for each agent. A soul sealed is 100 points, a cage checked is 500, a night survived is 250.</p>
+      </header>
+
+      <div class="arcade reveal" id="arcade">
+        <div class="arcade-top">
+          <span class="arcade-title"><svg class="ico" aria-hidden="true"><use href="#i-trophy"/></svg>High scores</span>
+          <button class="icon-btn" id="boardRefresh" type="button" aria-label="Refresh the scores"><svg class="ico" aria-hidden="true"><use href="#i-refresh"/></svg></button>
+        </div>
+        <div class="arcade-head" aria-hidden="true">
+          <span>Rank</span><span>Agent</span><span class="col-n">Souls</span><span class="col-n">Cages</span><span class="col-n">Nights</span><span class="col-s">Score</span>
+        </div>
+        <ol class="board" id="board"><li class="board-empty">Loading the scores</li></ol>
+        <div class="arcade-foot">
+          <span class="blink" id="boardPrompt">Press play to enter the board</span>
+          <button class="btn btn-quiet btn-sm" id="boardMore" type="button" hidden>Show more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENT --------------------------------------------------------------------------------- -->
+  <section class="section" id="agent">
+    <div class="wrap agent-grid">
+      <header class="sec-head left reveal">
+        <p class="eyebrow">Agent registry</p>
+        <h2>Get your Agent ID</h2>
+        <p class="lead">Pick a codename and a password. The registry gives you an Agent ID. Use the same account on this page and inside the game, and your best night goes on the board.</p>
+        <ul class="ticks">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>One account for the web and the game</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Your best night is kept</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>No email needed</li>
+        </ul>
+      </header>
+
+      <div class="reveal">
+        <!-- signed in -->
+        <div class="badge-card" id="badge" hidden>
+          <div class="badge-top"><img class="badge-mark" src="/img/logo-symbol.png?v=3" alt="" width="26" height="26" decoding="async" draggable="false"><span>Spectral agent</span><i class="status">On duty</i></div>
+          <div class="badge-id" id="badgeId">AGT-000000</div>
+          <div class="badge-name" id="badgeName">Codename</div>
+          <div class="badge-gender" id="badgeGender" hidden></div>
+          <div class="gender-ask" id="genderAsk" hidden>
+            <p>One more step: choose Male or Female to continue.</p>
+            <div class="seg" role="radiogroup" aria-label="Gender">
+              <button type="button" role="radio" aria-checked="false" data-ask="male"><svg class="ico" aria-hidden="true"><use href="#i-male"/></svg>Male</button>
+              <button type="button" role="radio" aria-checked="false" data-ask="female"><svg class="ico" aria-hidden="true"><use href="#i-female"/></svg>Female</button>
+            </div>
+            <p class="form-msg" id="askMsg" role="alert"></p>
+          </div>
+          <dl class="badge-stats" id="badgeStats">
+            <div><dt>Rank</dt><dd id="badgeRank">-</dd></div>
+            <div><dt>Best score</dt><dd id="badgeScore">0</dd></div>
+            <div><dt>Nights</dt><dd id="badgeRuns">0</dd></div>
+          </dl>
+          <div class="btn-row">
+            <a class="btn btn-primary btn-sm" id="badgePlay" href="/play/"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>Play</a>
+            <button class="btn btn-ghost btn-sm" id="logoutBtn" type="button"><svg class="ico" aria-hidden="true"><use href="#i-logout"/></svg>Sign out</button>
+          </div>
+        </div>
+
+        <!-- signed out -->
+        <form class="panel form" id="authForm" novalidate>
+          <div class="tabs" role="tablist" aria-label="Account">
+            <button type="button" role="tab" id="tabLogin" aria-selected="true" aria-controls="authForm">Sign in</button>
+            <button type="button" role="tab" id="tabRegister" aria-selected="false" aria-controls="authForm">Create agent</button>
+          </div>
+          <label class="field">
+            <span>Codename</span>
+            <div class="input"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>
+              <input id="fName" name="codename" type="text" autocomplete="username" autocapitalize="off" spellcheck="false" maxlength="16" placeholder="3 to 16 characters" required></div>
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <div class="input"><svg class="ico" aria-hidden="true"><use href="#i-key"/></svg>
+              <input id="fPass" name="password" type="password" autocomplete="current-password" maxlength="64" placeholder="6 characters or more" required></div>
+          </label>
+          <div class="field" id="genderBox" hidden>
+            <span>Gender</span>
+            <div class="seg" role="radiogroup" aria-label="Gender">
+              <button type="button" role="radio" aria-checked="false" data-gender="male"><svg class="ico" aria-hidden="true"><use href="#i-male"/></svg>Male</button>
+              <button type="button" role="radio" aria-checked="false" data-gender="female"><svg class="ico" aria-hidden="true"><use href="#i-female"/></svg>Female</button>
+            </div>
+          </div>
+          <div class="captcha" id="captchaBox" hidden>
+            <div id="captcha"></div>
+          </div>
+          <p class="form-msg" id="formMsg" role="alert"></p>
+          <button class="btn btn-primary btn-block" id="formSubmit" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg><span id="formSubmitText">Sign in</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- LICENSE ------------------------------------------------------------------------------- -->
+  <section class="section alt" id="license">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Credits and license</p>
+        <h2>The work belongs to the people who made it</h2>
+        <p class="lead">Every creator keeps the rights to their own work. Please respect it.</p>
+      </header>
+
+      <div class="creators reveal" aria-label="Creators">
+        <article class="creator" data-slot="game-designer">
+          <img src="/img/crew/game-designer.webp" alt="Avatar of the game designer" width="360" height="360" loading="lazy" decoding="async" draggable="false">
+          <div class="creator-body">
+            <span>Game designer</span>
+            <h3>Ayar Min</h3>
+            <p>The game design: the rules, the nights and how Spectral Agents plays.</p>
+            <small>&copy; 2026 Ayar Min. All rights reserved.</small>
+          </div>
+        </article>
+        <article class="creator" data-slot="sound">
+          <img src="/img/crew/sound.webp" alt="Avatar of the sound engineer" width="360" height="360" loading="lazy" decoding="async" draggable="false">
+          <div class="creator-body">
+            <span>Sound</span>
+            <h3>Wai Yan Min Thu</h3>
+            <p>The sound: the music, the voices and the sound effects.</p>
+            <small>&copy; 2026 Wai Yan Min Thu. All rights reserved.</small>
+          </div>
+        </article>
+        <article class="creator" data-slot="developer">
+          <img src="/img/crew/developer.webp" alt="Avatar of the developer" width="360" height="360" loading="lazy" decoding="async" draggable="false">
+          <div class="creator-body">
+            <span>Developer</span>
+            <h3>Swan Htet</h3>
+            <p>The code: the game, this website, the Agent accounts and the leaderboard.</p>
+            <small>&copy; 2026 Swan Htet. All rights reserved.</small>
+          </div>
+        </article>
+        <article class="creator" data-slot="artist">
+          <img src="/img/crew/artist.webp" alt="Avatar of the 3D artist" width="360" height="360" loading="lazy" decoding="async" draggable="false">
+          <div class="creator-body">
+            <span>3D art</span>
+            <h3>May Thinzar Khin</h3>
+            <p>The 3D art: the GCC house, the props and the equipment, and the models in the gallery.</p>
+            <small>&copy; 2026 May Thinzar Khin. All rights reserved.</small>
+          </div>
+        </article>
+      </div>
+
+      <!-- special thanks: the admins add them in /admin/ (Photos and creators). A box can hold a list of sounds. -->
+      <div class="credits-more" id="specialThanks" hidden>
+        <h3 class="more-title">Special thanks</h3>
+        <div class="credits-grid thanks-grid" id="specialThanksGrid"></div>
+      </div>
+
+      <!-- more contributors: the admins add them in /admin/ (Photos and creators) -->
+      <div class="credits-more" id="moreCredits" hidden>
+        <h3 class="more-title">More contributors</h3>
+        <div class="credits-grid" id="moreCreditsGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RIGHTS: all rights reserved, liability, disclaimer ------------------------------------- -->
+  <section class="section" id="rights">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Legal</p>
+        <h2>Rights and responsibility</h2>
+        <p class="lead">Who owns the work, and what the game and this website do and do not promise.</p>
+      </header>
+
+      <div class="license reveal">
+        <div class="license-head">
+          <svg class="ico ico-lg" aria-hidden="true"><use href="#i-file"/></svg>
+          <div>
+            <h3>All rights reserved</h3>
+            <p>Leikpyar Hunters / Spectral Agents is made of the work of four creators. Each creator holds the copyright of their own part: the game design, the sound and music, the code, and the 3D models, textures and artwork (the GCC house, the EM unit, the MEP capsule, the Faraday cage, the injector, the scanner, the Phantom Gun and almost all the other models of the game).</p>
+          </div>
+        </div>
+        <div class="license-cols">
+          <div>
+            <h4><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>You may</h4>
+            <ul>
+              <li>View the models on this website, in your browser.</li>
+              <li>Play the game for your own enjoyment.</li>
+              <li>Share a link to this page.</li>
+              <li>Use screenshots of the page or the game in a review or a news post, and name the creators: game design by Ayar Min, sound by Wai Yan Min Thu, code by Swan Htet, art by May Thinzar Khin.</li>
+            </ul>
+          </div>
+          <div>
+            <h4><svg class="ico" aria-hidden="true"><use href="#i-x"/></svg>You may not</h4>
+            <ul>
+              <li>Download, extract, copy, scrape, record or rip the models, textures, sounds, music, code or artwork from this website or from the game.</li>
+              <li>Copy, sell, share or republish any part of the work, in whole or in part.</li>
+              <li>Use the work in any other game, app, film, print or product, for money or not.</li>
+              <li>Use the work to train, tune or test any AI or machine learning model.</li>
+              <li>Remove the credits or the copyright notices.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="note"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg><span id="licenseContact">To ask a creator for written permission, contact the team.</span></p>
+      </div>
+
+      <div class="legal-grid reveal">
+        <article class="legal-card" id="liability">
+          <h3><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg>Liability</h3>
+          <ul>
+            <li>The game and this website are provided as they are. To the fullest extent the law allows, the creators and the team of Leikpyar Hunters are not liable for any loss or damage that comes from using them, such as lost game progress or scores, lost time, or a problem with your phone, computer or browser.</li>
+            <li>Keep your Agent password safe. You are responsible for what happens with your account.</li>
+            <li>An account that breaks the rules or cheats on the leaderboard may be blocked or deleted, and its scores may be removed.</li>
+            <li>Links to other websites are not under our control. We are not liable for what is on them.</li>
+            <li>Nothing here limits a right that the law does not allow to be limited.</li>
+          </ul>
+        </article>
+        <article class="legal-card" id="disclaimer">
+          <h3><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>Disclaimer</h3>
+          <ul>
+            <li>Leikpyar Hunters is a work of fiction. The people, places, ghosts and events in it are made up. Any likeness to a real person, living or dead, or to a real place or event is by chance.</li>
+            <li>It is a horror game, with dark scenes, sudden sounds and frightening creatures. It is not for young children, or for people with a heart condition, epilepsy or who are easily frightened. Take breaks, and stop if you feel unwell.</li>
+            <li>The game does not mock or speak for any religion, belief, group or person.</li>
+            <li>Some models and sounds were made by other creators and are used with their licenses. They are named in the credits above.</li>
+            <li>Names of devices and companies in the game, such as GCC Medical, are made up and have no link to any real company.</li>
+            <li>This text is general information. It is not legal advice.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand" href="#hero"><img class="brand-mark" src="/img/logo-symbol.png?v=3" alt="" width="40" height="40" decoding="async" draggable="false"><span class="brand-text">Leikpyar <b>Hunters</b></span></a>
+    <p>leikpyarhunters.org &middot; Spectral Agents &middot; Made in Myanmar</p>
+    <p class="small">Copyright &copy; 2026 Leikpyar Hunters. Each work belongs to its creator. All rights reserved.</p>
+    <p class="small"><a href="#rights">License</a> &middot; <a href="#liability">Liability</a> &middot; <a href="#disclaimer">Disclaimer</a> &middot; <a href="/privacy">Privacy</a></p>
+  </div>
+</footer>
+
+<!-- the background song and its disc (js/music.js) -->
+<div class="cd" id="cd" data-no-i18n>
+  <span class="cd-time" id="cdTime" aria-hidden="true">0:00 / 0:00</span>
+  <button class="cd-btn" id="cdBtn" type="button" aria-label="Pause the music" aria-pressed="false">
+    <svg class="cd-ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="cd-track" cx="50" cy="50" r="47"/><circle class="cd-bar" cx="50" cy="50" r="47"/></svg>
+    <img class="cd-disc" src="/img/cd.webp?v=1" alt="" width="320" height="320" decoding="async" draggable="false">
+    <i class="cd-glyph" aria-hidden="true"></i>
+  </button>
+</div>
+<audio id="bgm" src="/audio/background.mp3?v=1" preload="auto" loop></audio>
+
+<script type="module" src="/vendor/model-viewer.min.js?v=3.5.0"></script>
+<script src="/js/i18n-my.js?v=1" defer></script>
+<script src="/js/content.js?v=1" defer></script>
+<script src="/js/i18n.js?v=1" defer></script>
+<script src="/js/app.js?v=4" defer></script>
+<script src="/js/music.js?v=1" defer></script>
+<script src="/js/fsguide.js?v=2" defer></script>
+</body>
+</html>

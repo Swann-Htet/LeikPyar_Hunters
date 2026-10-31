@@ -1,0 +1,20 @@
+{
+    "name": "WebExport",
+    "rootNamespace": "",
+    "references": [
+        "glTFast",
+        "glTFast.Export",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,235 @@
+/* The full screen guide (the moving picture of how to go full screen on a phone). Made by make_fsguide_css.py: change that, not this file. */
+.fsg-open { overflow: hidden; }
+.fsg { position: fixed; inset: 0; z-index: 300; display: none; align-items: center; justify-content: center; padding: 16px; background: rgba(4, 2, 1, 0.78);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+.fsg.on { display: flex; }
+.fsg-card { position: relative; width: min(980px, 100%); max-height: 100%; overflow: auto; padding: clamp(18px, 3vw, 30px); border-radius: 22px; background: #150d09; border: 1px solid rgba(255, 224, 188, 0.16);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.7); color: #efe4d2; font-family: "DM Sans", "MM", system-ui, sans-serif; }
+.fsg-top { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.fsg-top h2 { margin: 0; font-size: clamp(20px, 3vw, 26px); letter-spacing: -0.01em; }
+.fsg-x { margin-left: auto; width: 40px; height: 40px; border-radius: 12px; border: 1px solid rgba(255, 224, 188, 0.18); background: transparent; color: inherit; cursor: pointer; display: grid; place-items: center; }
+.fsg-x:hover { background: rgba(255, 224, 188, 0.08); }
+.fsg-x svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.fsg-tabs { display: inline-flex; padding: 4px; border-radius: 12px; background: rgba(255, 224, 188, 0.06); border: 1px solid rgba(255, 224, 188, 0.12); margin-bottom: 18px; }
+.fsg-tabs button { padding: 9px 18px; border: 0; border-radius: 9px; background: transparent; color: #a99a8a; font: inherit; font-weight: 600; cursor: pointer; }
+.fsg-tabs button[aria-selected="true"] { background: #c8151f; color: #fff; }
+.fsg-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 34px); align-items: center; }
+.fsg-fit { width: 100%; min-width: 0; overflow: hidden; }
+.fsg-fit .fsg-stage { transform-origin: top left; }
+.fsg-steps h3 { margin: 0 0 10px; font-size: 17px; letter-spacing: 0.02em; color: #e5333d; }
+.fsg-steps ol, .fsg-steps ul { margin: 0 0 14px; padding-left: 22px; color: #cdbfae; }
+.fsg-steps li { margin: 0 0 8px; line-height: 1.55; }
+.fsg-note { margin: 0 0 14px; color: #8f8272; font-size: 14.5px; line-height: 1.5; }
+.fsg-go { text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 12px; border: 0; background: linear-gradient(180deg, #e5333d, #c8151f); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.fsg-go[hidden] { display: none; }
+@media (max-width: 760px) { .fsg-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* the picture: a phone in the 640 x 400 box, scaled by the script to fit */
+.fsg-stage { position: relative; width: 640px; height: 400px; }
+.fsg-phone { position: absolute; left: 0; top: 0; width: 640px; height: 320px; border-radius: 44px; background: #121217; border: 2px solid rgba(160, 165, 180, 0.9); box-sizing: border-box; }
+.fsg-screen { position: absolute; left: 18px; top: 14px; width: 600px; height: 288px; border-radius: 24px; overflow: hidden; background: #09090d; }
+.fsg-page { position: absolute; inset: 0; transform-origin: 50% 50%; }
+.sk { position: absolute; display: block; border-radius: 10px; background: linear-gradient(90deg, rgba(255,255,255,.07) 20%, rgba(255,255,255,.18) 50%, rgba(255,255,255,.07) 80%); background-size: 220% 100%; animation: fsgShimmer 1.7s linear infinite; }
+@keyframes fsgShimmer { from { background-position: 120% 0; } to { background-position: -120% 0; } }
+.sk.pic { left: 20px; top: 83px; width: 280px; height: 150px; border-radius: 14px; }
+.sk.l1 { left: 370px; top: 90px; width: 200px; height: 24px; }
+.sk.l2 { left: 370px; top: 127px; width: 180px; height: 14px; border-radius: 7px; }
+.sk.l3 { left: 370px; top: 151px; width: 200px; height: 14px; border-radius: 7px; }
+.sk.l4 { left: 380px; top: 175px; width: 140px; height: 14px; border-radius: 7px; }
+.fsg-btn { position: absolute; left: 192px; top: 219px; width: 216px; height: 42px; border-radius: 21px; background: #33a65a; color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 19px; }
+.fsg-bar { position: absolute; left: 0; top: 0; width: 600px; height: 44px; background: #26262d; }
+.fsg-url { position: absolute; top: 9px; height: 26px; border-radius: 13px; background: #44444f; }
+.fsg-dot { position: absolute; left: 563px; width: 6px; height: 6px; border-radius: 50%; background: #bdbec9; }
+.fsg-aa { position: absolute; left: 19px; top: 9px; width: 62px; height: 26px; border-radius: 13px; background: #44444f; display: grid; place-items: center; font-weight: 700; font-size: 18px; color: #efe4d2; }
+.fsg-menu { position: absolute; left: 35px; top: 46px; width: 200px; height: 120px; border-radius: 16px; background: rgba(44, 44, 54, 0.98); opacity: 0; transform: scale(.92); transform-origin: 20% 0; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.fsg-menu .sk { height: 12px; border-radius: 6px; }
+.fsg-menu .r1 { left: 15px; top: 18px; width: 110px; }
+.fsg-menu .r3 { left: 15px; top: 70px; width: 130px; }
+.fsg-menu .r4 { left: 15px; top: 96px; width: 90px; }
+.fsg-hot { position: absolute; left: 8px; top: 37px; width: 184px; height: 26px; border-radius: 10px; background: rgba(61, 140, 255, 0); color: #fff; font-weight: 700; font-size: 16px; line-height: 26px; padding-left: 12px; box-sizing: border-box; }
+.fsg-finger, .fsg-ring { position: absolute; left: 50%; top: 50%; width: 54px; height: 54px; border-radius: 50%; pointer-events: none; opacity: 0; }
+.fsg-finger { background: rgba(255, 255, 255, 0.88); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5); }
+.fsg-ring { border: 3px solid rgba(255, 255, 255, 0.9); box-sizing: border-box; }
+.fsg-badge { position: absolute; left: calc(50% - 150px); top: calc(50% - 35px); width: 300px; height: 58px; border-radius: 29px; background: rgba(0, 0, 0, 0.62); display: grid; place-items: center; font-weight: 800; font-size: 28px; letter-spacing: 0.14em; color: #efe4d2; opacity: 0; }
+.fsg-caps { position: absolute; left: 0; top: 346px; width: 640px; height: 52px; text-align: center; font-weight: 700; font-size: 26px; color: #efe4d2; }
+.fsg-caps span { position: absolute; inset: 0; opacity: 0; display: grid; place-items: center; }
+
+/* Android: the finger taps the green button, the browser bar goes away */
+.fsg-android .fsg-bar { animation: fsgBarA 8s ease-in-out infinite; }
+.fsg-android .fsg-page { animation: fsgPageA 8s ease-in-out infinite; }
+.fsg-android .fsg-badge { animation: fsgBadgeA 8s ease-in-out infinite; }
+.fsg-android .fsg-finger { animation: fsgFingerA 8s ease-in-out infinite; }
+.fsg-android .fsg-ring { animation: fsgRingA 8s ease-in-out infinite; }
+.fsg-android .fsg-btn { animation: fsgGlowA 8s ease-in-out infinite; }
+.fsg-android .c1 { animation: fsgCapA1 8s linear infinite; }
+.fsg-android .c2 { animation: fsgCapA2 8s linear infinite; }
+@keyframes fsgBarA {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(0); }
+  51.25% { transform: translateY(-100%); }
+  82.5% { transform: translateY(-100%); }
+  93.75% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+@keyframes fsgPageA {
+  0% { transform: translateY(0) scale(1); }
+  40% { transform: translateY(0) scale(1); }
+  51.25% { transform: translateY(-22px) scale(1.05); }
+  82.5% { transform: translateY(-22px) scale(1.05); }
+  93.75% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(0) scale(1); }
+}
+@keyframes fsgBadgeA {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  56.25% { opacity: 1; }
+  80% { opacity: 1; }
+  86.25% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fsgFingerA {
+  0% { transform: translate(calc(-50% + 210px), calc(-50% + 150px)) scale(1); opacity: 0; }
+  5% { transform: translate(calc(-50% + 210px), calc(-50% + 150px)) scale(1); opacity: 1; }
+  31.25% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(1); opacity: 1; }
+  35% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(1); opacity: 1; }
+  37.5% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(0.78); opacity: 1; }
+  41.25% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(1); opacity: 1; }
+  48.75% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(1); opacity: 1; }
+  55% { transform: translate(calc(-50% + 140px), calc(-50% + 140px)) scale(1); opacity: 0; }
+  100% { transform: translate(calc(-50% + 140px), calc(-50% + 140px)) scale(1); opacity: 0; }
+}
+@keyframes fsgRingA {
+  0% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(0.8); opacity: 0; }
+  37.375% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(0.8); opacity: 0; }
+  37.5% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(0.8); opacity: 0.7; }
+  48.75% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(2.4); opacity: 0; }
+  100% { transform: translate(calc(-50% + 0px), calc(-50% + 96px)) scale(2.4); opacity: 0; }
+}
+@keyframes fsgGlowA {
+  0% { background: #33a65a; }
+  32.5% { background: #33a65a; }
+  38.125% { background: #59e680; }
+  45% { background: #33a65a; }
+  100% { background: #33a65a; }
+}
+@keyframes fsgCapA1 {
+  0% { opacity: 1; }
+  40% { opacity: 1; }
+  41.25% { opacity: 0; }
+  98.75% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fsgCapA2 {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  41.25% { opacity: 1; }
+  93.75% { opacity: 1; }
+  95% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* iPhone: the finger taps aA, then Hide Toolbar, and the toolbar goes away */
+.fsg-ios .fsg-bar { animation: fsgBarI 11s ease-in-out infinite; }
+.fsg-ios .fsg-page { animation: fsgPageI 11s ease-in-out infinite; }
+.fsg-ios .fsg-badge { animation: fsgBadgeI 11s ease-in-out infinite; }
+.fsg-ios .fsg-finger { animation: fsgFingerI 11s ease-in-out infinite; }
+.fsg-ios .fsg-ring { animation: fsgRingI 11s ease-in-out infinite; }
+.fsg-ios .fsg-menu { animation: fsgMenuI 11s ease-in-out infinite; }
+.fsg-ios .fsg-hot { animation: fsgHotI 11s ease-in-out infinite; }
+.fsg-ios .c1 { animation: fsgCapI1 11s linear infinite; }
+.fsg-ios .c2 { animation: fsgCapI2 11s linear infinite; }
+.fsg-ios .c3 { animation: fsgCapI3 11s linear infinite; }
+@keyframes fsgBarI {
+  0% { transform: translateY(0); }
+  45.455% { transform: translateY(0); }
+  53.636% { transform: translateY(-100%); }
+  88.182% { transform: translateY(-100%); }
+  96.364% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+@keyframes fsgPageI {
+  0% { transform: translateY(0) scale(1); }
+  45.455% { transform: translateY(0) scale(1); }
+  53.636% { transform: translateY(-22px) scale(1.05); }
+  88.182% { transform: translateY(-22px) scale(1.05); }
+  96.364% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(0) scale(1); }
+}
+@keyframes fsgBadgeI {
+  0% { opacity: 0; }
+  52.727% { opacity: 0; }
+  57.273% { opacity: 1; }
+  85.455% { opacity: 1; }
+  90% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fsgFingerI {
+  0% { transform: translate(calc(-50% + 150px), calc(-50% + 130px)) scale(1); opacity: 0; }
+  2.727% { transform: translate(calc(-50% + 150px), calc(-50% + 130px)) scale(1); opacity: 1; }
+  18.182% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(1); opacity: 1; }
+  20% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(0.78); opacity: 1; }
+  22.273% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(1); opacity: 1; }
+  27.273% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(1); opacity: 1; }
+  38.182% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(1); opacity: 1; }
+  40.909% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(1); opacity: 1; }
+  42.727% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(0.78); opacity: 1; }
+  45% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(1); opacity: 1; }
+  47.273% { transform: translate(calc(-50% + -132px), calc(-50% + -20px)) scale(1); opacity: 1; }
+  50% { transform: translate(calc(-50% + -100px), calc(-50% + 30px)) scale(1); opacity: 0.35; }
+  51.818% { transform: translate(calc(-50% + -100px), calc(-50% + 30px)) scale(1); opacity: 0; }
+  100% { transform: translate(calc(-50% + -100px), calc(-50% + 30px)) scale(1); opacity: 0; }
+}
+@keyframes fsgRingI {
+  0% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(0.8); opacity: 0; }
+  19.909% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(0.8); opacity: 0; }
+  20% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(0.8); opacity: 0.7; }
+  27.727% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(2.4); opacity: 0; }
+  42.636% { transform: translate(calc(-50% + -250px), calc(-50% + -122px)) scale(2.4); opacity: 0; }
+  42.727% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(0.8); opacity: 0.7; }
+  50.455% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(2.4); opacity: 0; }
+  100% { transform: translate(calc(-50% + -165px), calc(-50% + -48px)) scale(2.4); opacity: 0; }
+}
+@keyframes fsgMenuI {
+  0% { opacity: 0; transform: scale(0.92); }
+  20.909% { opacity: 0; transform: scale(0.92); }
+  24.545% { opacity: 1; transform: scale(1); }
+  44.545% { opacity: 1; transform: scale(1); }
+  47.273% { opacity: 0; transform: scale(0.92); }
+  100% { opacity: 0; transform: scale(0.92); }
+}
+@keyframes fsgHotI {
+  0% { background: rgba(61, 140, 255, 0); }
+  37.273% { background: rgba(61, 140, 255, 0); }
+  40.909% { background: rgba(61, 140, 255, 0.9); }
+  45.455% { background: rgba(61, 140, 255, 0.9); }
+  47.273% { background: rgba(61, 140, 255, 0); }
+  100% { background: rgba(61, 140, 255, 0); }
+}
+@keyframes fsgCapI1 {
+  0% { opacity: 1; }
+  21.818% { opacity: 1; }
+  22.727% { opacity: 0; }
+  99.091% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fsgCapI2 {
+  0% { opacity: 0; }
+  21.818% { opacity: 0; }
+  22.727% { opacity: 1; }
+  44.545% { opacity: 1; }
+  45.455% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fsgCapI3 {
+  0% { opacity: 0; }
+  44.545% { opacity: 0; }
+  45.455% { opacity: 1; }
+  95.455% { opacity: 1; }
+  96.364% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fsg-row { flex-wrap: wrap; align-items: center; }
+.fsg-row .btn { margin-left: 4px; }
+
+@media (prefers-reduced-motion: reduce) { .fsg-stage *, .sk { animation-duration: 40s !important; } }

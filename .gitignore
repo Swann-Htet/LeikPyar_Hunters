@@ -1,0 +1,22 @@
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+Obj/
+Build/
+Builds/
+*.csproj
+*.sln
+
+# server
+data/
+models/
+*.db
+secret.key
+__pycache__/
+
+# keys
+*.pem
+id_*
+lh_deploy*

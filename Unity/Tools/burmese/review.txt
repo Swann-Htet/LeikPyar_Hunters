@@ -1,0 +1,774 @@
+English  |  Burmese (please have a native speaker check these)
+
+START NEW GAME
+    ဂိမ်းအသစ် စတင်မည်
+LOAD GAME
+    ဂိမ်းဆက်ကစားမည်
+CREDITS
+    ဖန်တီးသူများ
+QUIT
+    ထွက်မည်
+BACK
+    နောက်သို့
+SPECTRAL
+    ဝိညာဉ်ထိန်း
+AGENTS
+    မုဆိုးများ
+SURVIVE THE NIGHT
+    ညကို အသက်ရှင်ကျော်ဖြတ်ပါ
+HEADPHONES RECOMMENDED   -   PLAY IN THE DARK
+    နားကြပ်တပ်ပါ   -   မှောင်မှောင်မှာ ကစားပါ
+NO SAVED GAME YET
+    သိမ်းထားသော ဂိမ်း မရှိသေးပါ
+CLOSE THIS TAB TO QUIT
+    ထွက်ရန် ဤတက်ဘ်ကို ပိတ်ပါ
+GAME DESIGNER
+    ဂိမ်းဒီဇိုင်နာ
+SOUND
+    အသံ
+DEVELOPER
+    ဆော့ဖ်ဝဲရေးသားသူ
+3D ART
+    ၃ဒီ အနုပညာရှင်
+TORCH
+    ဓာတ်မီး
+BACKPACK  [B]
+    ကျောပိုးအိတ်  [B]
+Empty Faraday Cage
+    ဗလာ ဖာရာဒေး လှောင်အိမ်
+Faraday Cage
+    ဖာရာဒေး လှောင်အိမ်
+Molecular Encapsulation Phial
+    မော်လီကျူလာ ဗူးငယ်
+Capsule
+    ကက်ပ်ဆူး
+Gun
+    သေနတ်
+Radio
+    ရေဒီယို
+[E] Take {0}
+    [E] {0} ကို ယူမည်
+[E] Take back
+    [E] ပြန်ယူမည်
+[E] Interact
+    [E] အသုံးပြုမည်
+[F] Close Door
+    [F] တံခါး ပိတ်မည်
+[F] Open Door
+    [F] တံခါး ဖွင့်မည်
+Inventory full
+    အိတ် ပြည့်နေပါပြီ
+Left click: drop {0}
+    ဘယ်ဘက်ကလစ်: {0} ကို ချမည်
+Fill or take back the dropped cage first
+    ချထားသော လှောင်အိမ်ကို အရင် ဖြည့်ပါ၊ သို့မဟုတ် ပြန်ယူပါ
+Click to hold in your hand
+    လက်ထဲတွင် ကိုင်ရန် နှိပ်ပါ
+Put {0} in this cage   [F]
+    ဤလှောင်အိမ်ထဲသို့ {0} ထည့်မည်   [F]
+No {0}
+    {0} မရှိပါ
+{0} added to inventory
+    {0} ကို အိတ်ထဲသို့ ထည့်ပြီးပါပြီ
+Put {0} on the table   [F]
+    {0} ကို စားပွဲပေါ်တင်မည်   [F]
+Bring a filled Faraday Cage here
+    ပြည့်နေသော ဖာရာဒေး လှောင်အိမ်ကို ဤနေရာသို့ ယူလာပါ
+The table is full. Wait until a check is done
+    စားပွဲ ပြည့်နေပါသည်။ စစ်ဆေးပြီးသည်အထိ စောင့်ပါ
+Only a filled Faraday Cage can be checked here
+    ပြည့်နေသော ဖာရာဒေး လှောင်အိမ်ကိုသာ ဤနေရာတွင် စစ်ဆေးနိုင်ပါသည်
+Checking the cage...  {0}
+    လှောင်အိမ်ကို စစ်ဆေးနေသည်...  {0}
+CHECKING  {0}
+    စစ်ဆေးနေသည်  {0}
+WAITING (closed)  {0}
+    စောင့်နေသည် (ပိတ်ထားသည်)  {0}
+CHECKED
+    စစ်ဆေးပြီးပြီ
+Your empty {0} is back on the table
+    သင့်ဗလာ {0} ကို စားပွဲပေါ်သို့ ပြန်ထားပေးပါပြီ
+The table is closed   (open {0} - {1})
+    စားပွဲ ပိတ်ထားသည်   (ဖွင့်ချိန် {0} - {1})
+Total Point {0}
+    စုစုပေါင်း အမှတ် {0}
+No points. Check a Faraday Cage on the Drop Table to earn one
+    အမှတ် မရှိပါ။ အမှတ်ရရန် စားပွဲပေါ်တွင် ဖာရာဒေး လှောင်အိမ်ကို စစ်ဆေးပါ
+<   >  browse        Enter or +  upgrade        U  close
+    <   >  ရွေးရန်        Enter သို့မဟုတ် +  မြှင့်တင်ရန်        U  ပိတ်ရန်
++{0} POINT   (press U to upgrade)
+    +{0} အမှတ်   (မြှင့်တင်ရန် U ကို နှိပ်ပါ)
+{0} +{1}%  >  {2}%   LEVEL {3}!
+    {0} +{1}%  >  {2}%   အဆင့် {3}!
+{0} +{1}%  >  {2}%
+    {0} +{1}%  >  {2}%
+{0} is already at the maximum
+    {0} သည် အမြင့်ဆုံးသို့ ရောက်ပြီးပါပြီ
+LEVEL {0} / {1}
+    အဆင့် {0} / {1}
+Level {0}  -  {1}%
+    အဆင့် {0}  -  {1}%
+Gun overheated! Cooling down {0}s
+    သေနတ် ပူလွန်းနေပါပြီ! အေးသွားရန် {0} စက္ကန့် စောင့်ပါ
+The ghost broke free! Catch it again
+    ဝိညာဉ် လွတ်သွားပြီ! ပြန်ဖမ်းပါ
+Hold [Left Click] to pull baby ghost
+    ကလေးဝိညာဉ်ကို ဆွဲယူရန် [Left Click] ကို ဖိထားပါ
+Pulling baby ghost... {0}%
+    ကလေးဝိညာဉ်ကို ဆွဲယူနေသည်... {0}%
+Keep holding [Left Click] and walk. Take the baby ghost to the generator
+    [Left Click] ကို ဆက်ဖိထားပြီး လျှောက်ပါ။ ကလေးဝိညာဉ်ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ
+The ghost is too far - get closer
+    ဝိညာဉ်က ဝေးလွန်းသည် - ပိုနီးအောင် သွားပါ
+Aim the crosshair at the ghost, then hold [Left Click]
+    ဝိညာဉ်ဆီသို့ ချိန်ရွယ်ပြီး [Left Click] ကို ဖိထားပါ
+Producing capsule... {0}s
+    ကက်ပ်ဆူး ထုတ်လုပ်နေသည်... {0} စက္ကန့်
+Play in Fullscreen
+    ဖန်သားပြင်အပြည့် ကစားမည်
+Add to Home Screen for Fullscreen
+    ဖန်သားပြင်အပြည့်အတွက် Home Screen သို့ ထည့်ပါ
+Tap the button to hide the browser bar and play fullscreen.
+    ဘရောက်ဇာဘားကို ဖျောက်ပြီး ဖန်သားပြင်အပြည့် ကစားရန် ခလုတ်ကို နှိပ်ပါ။
+Turn your phone sideways (landscape) for the best view.
+    အကောင်းဆုံး မြင်ကွင်းအတွက် ဖုန်းကို ဘေးတိုက် ပြောင်းပါ။
+This browser cannot hide the URL bar by itself.
+    ဤဘရောက်ဇာသည် URL ဘားကို ကိုယ်တိုင် မဖျောက်နိုင်ပါ။
+Tap the Share button, choose "Add to Home Screen", then open the game from the new icon.
+    Share ခလုတ်ကို နှိပ်ပြီး "Add to Home Screen" ကို ရွေးပါ၊ ထို့နောက် အိုင်ကွန်အသစ်မှ ဂိမ်းကို ဖွင့်ပါ။
+Play Fullscreen
+    ဖန်သားပြင်အပြည့် ကစားမည်
+Continue
+    ဆက်လက်မည်
+@language_name
+    မြန်မာ
+@period_morning
+    နံနက်
+@period_noon
+    နေ့လယ်
+@period_evening
+    ညနေ
+@period_night
+    ည
+SETTINGS
+    ဆက်တင်များ
+GAME
+    ဂိမ်း
+CONTROLS
+    ထိန်းချုပ်ခလုတ်များ
+Mouse Sensitivity
+    မောက်စ် အမြန်နှုန်း
+Touch Sensitivity
+    ထိတွေ့မှု အမြန်နှုန်း
+Invert Look (Y)
+    အပေါ်အောက် ပြောင်းပြန် (Y)
+Field of View
+    မြင်ကွင်း ကျယ်ဝန်းမှု
+Brightness
+    တောက်ပမှု
+Volume
+    အသံအတိုးအကျယ်
+Graphics Quality
+    ဂရပ်ဖစ် အရည်အသွေး
+Fullscreen
+    ဖန်သားပြင်အပြည့်
+Show FPS
+    FPS ပြမည်
+Language
+    ဘာသာစကား
+ON
+    ဖွင့်
+OFF
+    ပိတ်
+RESET
+    မူလအတိုင်း ပြန်ထားမည်
+CLOSE
+    ပိတ်မည်
+Low
+    နိမ့်
+Medium
+    အလယ်အလတ်
+High
+    မြင့်
+WASD  -  Move
+    WASD  -  လျှောက်ရန်
+Shift  -  Run
+    Shift  -  ပြေးရန်
+Ctrl  -  Walk slowly
+    Ctrl  -  ဖြည်းဖြည်းလျှောက်ရန်
+Space  -  Jump
+    Space  -  ခုန်ရန်
+Mouse  -  Look around
+    မောက်စ်  -  ကြည့်ရန်
+Left Click  -  Pull ghost with the gun
+    ဘယ်ဘက်ကလစ်  -  သေနတ်ဖြင့် ဝိညာဉ်ကို ဆွဲယူရန်
+E  -  Take / Interact
+    E  -  ယူရန် / အသုံးပြုရန်
+F  -  Open door / Put / Fill
+    F  -  တံခါးဖွင့်ရန် / ထည့်ရန်
+B  -  Backpack
+    B  -  ကျောပိုးအိတ်
+U  -  Upgrades
+    U  -  မြှင့်တင်ရန်
+T  -  Torch
+    T  -  ဓာတ်မီး
+P  -  Settings
+    P  -  ဆက်တင်
+LOW HEALTH!
+    ကျန်းမာရေး နည်းနေပြီ!
+Health is critical.
+    အသက်အန္တရာယ် ရှိနေပါပြီ။
+Find a health pack or take cover.
+    ကျန်းမာရေးအိတ် ရှာပါ သို့မဟုတ် ပုန်းကွယ်ပါ။
+Hold [Left Click] to pull Orb
+    Orb ကို ဆွဲယူရန် [Left Click] ကို ဖိထားပါ
+Pulling Orb... {0}%
+    Orb ကို ဆွဲယူနေသည်... {0}%
+Keep holding [Left Click] and walk. Take the Orb to the generator
+    [Left Click] ကို ဆက်ဖိထားပြီး လျှောက်ပါ။ Orb ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ
+Hold [Left Click] to pull Mirage
+    Mirage ကို ဆွဲယူရန် [Left Click] ကို ဖိထားပါ
+Pulling Mirage... {0}%
+    Mirage ကို ဆွဲယူနေသည်... {0}%
+Keep holding [Left Click] and walk. Take the Mirage to the generator
+    [Left Click] ကို ဆက်ဖိထားပြီး လျှောက်ပါ။ Mirage ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ
+Hold [Left Click] to pull Solid
+    Solid ကို ဆွဲယူရန် [Left Click] ကို ဖိထားပါ
+Pulling Solid... {0}%
+    Solid ကို ဆွဲယူနေသည်... {0}%
+Keep holding [Left Click] and walk. Take the Solid to the generator
+    [Left Click] ကို ဆက်ဖိထားပြီး လျှောက်ပါ။ Solid ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ
+The Mirage runs away from a weak gun - upgrade the gun
+    သေနတ်အားနည်းသဖြင့် Mirage က ထွက်ပြေးနေသည် - သေနတ်ကို အဆင့်မြှင့်ပါ
+Scanner battery is empty
+    စကင်နာ ဘက်ထရီ ကုန်သွားပြီ
+Scanner battery is too low
+    စကင်နာ ဘက်ထရီ နည်းလွန်းသည်
+Morning: the scanner battery is charged
+    မနက်ပြီ - စကင်နာ ဘက်ထရီ အားပြည့်သွားပြီ
+[O] Open scanner to scan
+    [O] စကင်ဖတ်ရန် စကင်နာကို ဖွင့်ပါ
+[H] Hide under the bed
+    [H] ကုတင်အောက်တွင် ပုန်းရန်
+[H] Hide in the wardrobe
+    [H] ဗီရိုထဲတွင် ပုန်းရန်
+[H] Hide in the cupboard
+    [H] ဗီရိုငယ်ထဲတွင် ပုန်းရန်
+[H] Come out
+    [H] ထွက်လာရန်
+She is too close!
+    သူ အရမ်းနီးနေပြီ!
+TUTORIAL
+    လေ့ကျင့်ရေး
+Move around with W A S D
+    W A S D ဖြင့် လှုပ်ရှားပါ
+Move with the joystick
+    ဂျွိုင်စတစ်ဖြင့် လှုပ်ရှားပါ
+Look around with the mouse
+    မောက်စ်ဖြင့် ဝေ့ကြည့်ပါ
+Drag your finger on the screen to look around
+    မျက်နှာပြင်ပေါ်တွင် လက်ညှိုးဖြင့် ဆွဲ၍ ဝေ့ကြည့်ပါ
+Open a door: look at it and press F
+    တံခါးကို ကြည့်ပြီး F နှိပ်၍ ဖွင့်ပါ
+Open a door: look at it and tap the hand button
+    တံခါးကို ကြည့်ပြီး လက်ပုံခလုတ်ကို နှိပ်၍ ဖွင့်ပါ
+Open the backpack with B
+    B ဖြင့် ကျောပိုးအိတ်ကို ဖွင့်ပါ
+Open the backpack with the BAG button
+    BAG ခလုတ်ဖြင့် ကျောပိုးအိတ်ကို ဖွင့်ပါ
+Turn the torch on with T
+    T ဖြင့် ဓာတ်မီးကို ဖွင့်ပါ
+Turn the torch on with the torch button
+    ဓာတ်မီးခလုတ်ဖြင့် ဓာတ်မီးကို ဖွင့်ပါ
+Walk the Orb to the generator (keep holding)
+    Orb ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ (ဆက်ဖိထားပါ)
+Walk the Orb to the generator (keep the pull on)
+    Orb ကို ဂျင်နရေတာဆီ ခေါ်သွားပါ (ဆွဲထားဆဲ ဖြစ်ပါစေ)
+Go to the NPC, press U to open the upgrades, then close them
+    NPC ဆီသွား၍ U နှိပ်ကာ အဆင့်မြှင့်စာမျက်နှာကို ဖွင့်ပြီး ပြန်ပိတ်ပါ
+Look at the NPC, tap the hand button to open the upgrades, then close them
+    NPC ကို ကြည့်ပြီး လက်ပုံခလုတ်ဖြင့် အဆင့်မြှင့်စာမျက်နှာကို ဖွင့်ကာ ပြန်ပိတ်ပါ
+A ghost is coming! Hide under a bed or in a wardrobe with H
+    သရဲ လာနေပြီ! H ဖြင့် ကုတင်အောက် သို့ ဗီရိုထဲ ပုန်းပါ
+A ghost is coming! Hide under a bed or in a wardrobe with the hand button
+    သရဲ လာနေပြီ! လက်ပုံခလုတ်ဖြင့် ကုတင်အောက် သို့ ဗီရိုထဲ ပုန်းပါ
+Stay hidden until she goes away
+    သူ ပြန်သွားသည်အထိ ပုန်းနေပါ
+Press H to come out
+    H ဖြင့် ထွက်လာပါ
+Come out with the hand button
+    လက်ပုံခလုတ်ဖြင့် ထွက်လာပါ
+TRAINING COMPLETE
+    လေ့ကျင့်ရေး ပြီးဆုံးပါပြီ
+You know everything you need. Good luck tonight.
+    လိုအပ်တာအားလုံး သိပြီ။ ဒီည ကံကောင်းပါစေ။
+PLAY THE GAME
+    ဂိမ်းကစားမည်
+BACK TO THE MENU
+    မီနူးသို့ ပြန်မည်
+SKIP
+    ကျော်မည်
+MENU
+    မီနူး
+N  skip      M  menu
+    N  ကျော်မည်      M  မီနူး
+GUIDE
+    လမ်းညွှန်
+START TRAINING
+    လေ့ကျင့်ရေး စတင်မည်
+Move
+    လှုပ်ရှားရန်
+Look around
+    ဝေ့ကြည့်ရန်
+Run
+    ပြေးရန်
+Jump
+    ခုန်ရန်
+Open doors, use the table
+    တံခါးဖွင့်ရန်၊ စားပွဲကို အသုံးပြုရန်
+Take items
+    ပစ္စည်းယူရန်
+Backpack
+    ကျောပိုးအိတ်
+Torch
+    ဓာတ်မီး
+Gun: take out or put away
+    သေနတ် - ထုတ်ရန် သို့ သိမ်းရန်
+Pull the ghost, drop the held item
+    သရဲကို ဆွဲယူရန်၊ ကိုင်ထားသည့် ပစ္စည်းကို ချရန်
+Scanner: take out or put away
+    စကင်နာ - ထုတ်ရန် သို့ သိမ်းရန်
+Scanner: switch on or off
+    စကင်နာ - ဖွင့်ရန် သို့ ပိတ်ရန်
+Hide under a bed, in a wardrobe or a cupboard
+    ကုတင်အောက်၊ ဗီရိုထဲ၊ ဘီဒိုထဲ ပုန်းရန်
+Upgrades (at the NPC)
+    အဆင့်မြှင့်ရန် (NPC ဆီတွင်)
+Settings
+    ဆက်တင်များ
+This guide
+    ဤလမ်းညွှန်
+Use, take, pull the ghost
+    သုံးရန်၊ ယူရန်၊ သရဲကို ဆွဲရန်
+Upgrade at the NPC (7 AM - 4 PM)
+    NPC ဆီတွင် အဆင့်မြှင့်ပါ (နံနက် ၇ နာရီ - ညနေ ၄ နာရီ)
+[U] Upgrade
+    [U] အဆင့်မြှင့်ရန်
+You can carry only one kind of item. Use or drop the {0} first
+    ပစ္စည်းတစ်မျိုးသာ သယ်ခွင့်ရှိသည်။ {0} ကို အရင် သုံးပါ သို့မဟုတ် ချပါ
+Take out the gun with 1
+    Proton Emitter Gun ကိုထုတ်ရန် နံပါတ် “1” ကိုနှိပ်ပါ။
+Take out the gun: tap it on the bottom bar
+    Proton Emitter Gun ကိုထုတ်ရန် အောက်ခြေဘားမှ ၎င်းကို နှိပ်ပါ။
+Take out the scanner with 2, then switch it on with O
+    2 ဖြင့် စကင်နာကို ထုတ်ပြီး O ဖြင့် ဖွင့်ပါ
+Take out the scanner on the bottom bar, then switch it on
+    အောက်ခြေဘားမှ စကင်နာကို ထုတ်ပြီး ဖွင့်ပါ
+Take out the gun with 1, aim at the glowing Orb and hold Left Click
+    1 ဖြင့် သေနတ်ကို ထုတ်ပြီး တောက်ပနေသော Orb ကို ချိန်ကာ Left Click ကို ဖိထားပါ
+Take out the gun, aim at the glowing Orb and tap the hand button
+    သေနတ်ကို ထုတ်ပြီး တောက်ပနေသော Orb ကို ချိန်ကာ လက်ပုံခလုတ်ကို နှိပ်ပါ
+Injector: take out or put away
+    ဆေးထိုးအပ် - ထုတ်ရန် သို့ သိမ်းရန်
+Pull the ghost, use the injector, drop the held item
+    သရဲကို ဆွဲရန်၊ ဆေးထိုးရန်၊ ကိုင်ထားသည့် ပစ္စည်းကို ချရန်
+Use, take, pull the ghost, use the injector
+    သုံးရန်၊ ယူရန်၊ သရဲကို ဆွဲရန်၊ ဆေးထိုးရန်
+Bottom bar
+    အောက်ခြေဘား
+Gun, scanner, injector: tap to take out or put away
+    သေနတ်၊ စကင်နာ၊ ဆေးထိုးအပ် - နှိပ်၍ ထုတ်ရန် သို့ သိမ်းရန်
+Health is full
+    ကျန်းမာရေး အပြည့်ရှိပါပြီ
+No injectors left
+    ဆေးထိုးအပ် မကျန်တော့ပါ
+1 2 3  -  Gun / Scanner / Injector
+    1 2 3  -  သေနတ် / စကင်နာ / ဆေးထိုးအပ်
+O  -  Scanner on / off
+    O  -  စကင်နာ ဖွင့်/ပိတ်
+Text Size
+    စာလုံးအရွယ်အစား
+SIZE
+    အရွယ်
+ROOM {0} / {1}
+    အခန်း {0} / {1}
+GUN + MEP
+    သေနတ် + MEP
+FARADAY CAGE
+    ဖာရာဒေး လှောင်အိမ်
+RADAR + SOLID
+    ရေဒါ + Solid သရဲ
+NPC
+    NPC
+The gun pulls an Orb out of the dark. Walk it to the generator and the generator makes a MEP. (W A S D move, mouse looks)   Enter: start
+    သေနတ်က အမှောင်ထဲက Orb ကို ဆွဲထုတ်သည်။ ဂျင်နရေတာဆီ ခေါ်သွားလျှင် MEP ထုတ်ပေးမည်။ (W A S D လှုပ်ရှားရန်၊ မောက်စ်ဖြင့် ကြည့်ရန်)   Enter: စမည်
+The gun pulls an Orb out of the dark. Walk it to the generator and the generator makes a MEP.
+    သေနတ်က အမှောင်ထဲက Orb ကို ဆွဲထုတ်သည်။ ဂျင်နရေတာဆီ ခေါ်သွားလျှင် MEP ထုတ်ပေးမည်။
+A MEP goes into an empty Faraday Cage. The filled cage goes on the Drop Table, the NPC checks it and you get a point.   Enter: start
+    MEP ကို ဗလာ ဖာရာဒေး လှောင်အိမ်ထဲ ထည့်သည်။ ပြည့်သော လှောင်အိမ်ကို Drop Table ပေါ်တင်လျှင် NPC စစ်ပြီး အမှတ်ရမည်။   Enter: စမည်
+A MEP goes into an empty Faraday Cage. The filled cage goes on the Drop Table, the NPC checks it and you get a point.
+    MEP ကို ဗလာ ဖာရာဒေး လှောင်အိမ်ထဲ ထည့်သည်။ ပြည့်သော လှောင်အိမ်ကို Drop Table ပေါ်တင်လျှင် NPC စစ်ပြီး အမှတ်ရမည်။
+The scanner lights tell how near a ghost is. Then the woman (Solid) comes: hide, and she goes away.   Enter: start
+    စကင်နာမီးများက သရဲ ဘယ်လောက်နီးသည်ကို ပြောပြသည်။ ထို့နောက် မိန်းမသရဲ (Solid) လာမည် - ပုန်းလျှင် ပြန်သွားမည်။   Enter: စမည်
+The scanner lights tell how near a ghost is. Then the woman (Solid) comes: hide, and she goes away.
+    စကင်နာမီးများက သရဲ ဘယ်လောက်နီးသည်ကို ပြောပြသည်။ ထို့နောက် မိန်းမသရဲ (Solid) လာမည် - ပုန်းလျှင် ပြန်သွားမည်။
+The NPC upgrades your tools. Every checked cage is a point: spend it on the gun, the EM, the MEP or the radio.   Enter: start
+    NPC က သင့်ကိရိယာများကို အဆင့်မြှင့်ပေးသည်။ စစ်ပြီးသော လှောင်အိမ်တိုင်းသည် အမှတ်တစ်ခု - သေနတ်၊ EM၊ MEP သို့ ရေဒီယိုတွင် သုံးပါ။   Enter: စမည်
+The NPC upgrades your tools. Every checked cage is a point: spend it on the gun, the EM, the MEP or the radio.
+    NPC က သင့်ကိရိယာများကို အဆင့်မြှင့်ပေးသည်။ စစ်ပြီးသော လှောင်အိမ်တိုင်းသည် အမှတ်တစ်ခု - သေနတ်၊ EM၊ MEP သို့ ရေဒီယိုတွင် သုံးပါ။
+Aim at the glowing Orb and hold Left Click until it is pulled
+    တောက်ပနေသော “Soul Orb” ကိုချိန်ရွယ်ပြီး “Left Click” ကို ဖိထားပါ။
+Aim at the glowing Orb and tap the hand button
+    တောက်ပနေသော “Soul Orb” ကိုချိန်ရွယ်ပြီး လက်ပုံခလုတ်ကို ဖိထားပါ။
+Keep the Orb pulled and walk it to the generator
+    Soul Orb ကို EM-Tethering စက်ဆီသို့ဆွဲယူသွားပြီး စက်အပေါ်သို့တင်လိုက်ပါ။
+Keep the pull on and walk the Orb to the generator
+    Soul Orb ကို EM-Tethering စက်ဆီသို့ဆွဲယူသွားပြီး စက်အပေါ်သို့တင်လိုက်ပါ။
+The generator is making a MEP. Wait a moment
+    EM-Tethering စက်အလုပ်လုပ်နေပါသည်။ ခဏစောင့်ပေးပါ။
+Look at the MEP and press E to take it
+    Molecular Encapsulation Phial - (MEP) ဖန်ပြွန်ထွက်လာပါပြီ။ ဖန်ပြွန်ကိုယူရန် အနားသွား၍ “E” ကိုနှိပ်ပါ။
+Look at the MEP and tap the hand button
+    Molecular Encapsulation Phial - (MEP) ဖန်ပြွန်ထွက်လာပါပြီ။ ဖန်ပြွန်ကိုယူရန် အနားသွား၍ လက်ပုံခလုတ်ကို နှိပ်ပါ။
+Open the backpack with B and click the Empty Faraday Cage to hold it
+    Back Pack ကိုဖွင့်ရန် “B” ကိုနှိပ်ပါ။ Back Pack ထဲမှ Faraday Case အလွတ်ကို “Left Click” နှိပ်၍ ကိုင်ပါ။
+Open the BAG and tap the Empty Faraday Cage to hold it
+    Back Pack ကိုဖွင့်ပါ။ Back Pack ထဲမှ Faraday Case အလွတ်ကို နှိပ်၍ ကိုင်ပါ။
+Left click to drop the cage on the floor
+    Faraday Case ကို ကြမ်းပြင်ပေါ်သို့ချရန် “Left Click” ကို ထပ်မံနှိပ်ပါ။
+Tap DROP to drop the cage on the floor
+    Faraday Case ကို ကြမ်းပြင်ပေါ်သို့ချရန် DROP ကိုနှိပ်ပါ။
+Look at the cage and press F to put the MEP inside
+    MEP ဖန်ပြွန်ကိုထည့်ရန် Faraday Case ကိုချိန်ရွယ်၍ “F” ကိုနှိပ်ပါ။
+Look at the cage and tap the hand button to put the MEP inside
+    MEP ဖန်ပြွန်ကိုထည့်ရန် Faraday Case ကိုချိန်ရွယ်၍ လက်ပုံခလုတ်ကို နှိပ်ပါ။
+Open the backpack and hold the filled Faraday Cage
+    ကျောပိုးအိတ်ဖွင့်ပြီး ပြည့်နေသော ဖာရာဒေး လှောင်အိမ်ကို ကိုင်ပါ
+Open the BAG and hold the filled Faraday Cage
+    BAG ကိုဖွင့်ပြီး ပြည့်နေသော ဖာရာဒေး လှောင်အိမ်ကို ကိုင်ပါ
+Go to the Drop Table and press F to put the cage on it
+    Drop Table ပေါ်သို့ Faraday Case တင်ရန် စားပွဲနားသွားပြီး “F” ကိုနှိပ်ပါ။
+Go to the Drop Table and tap the hand button to put the cage on it
+    Drop Table ပေါ်သို့ Faraday Case တင်ရန် စားပွဲနားသွားပြီး လက်ပုံခလုတ်ကို နှိပ်ပါ။
+The NPC checks the cage. Wait for your point
+    GCC ဝန်ထမ်းမှစစ်ဆေးနေပါသည်။ စစ်ဆေးပြီးလျှင် အမှတ်များ ရလာပါလိမ့်မည်။
+Take out the scanner with 2
+    EMF-Scanner ကိုထုတ်ရန် နံပါတ် “2” ကိုနှိပ်ပါ။
+Take out the scanner: tap it on the bottom bar
+    EMF-Scanner ကိုထုတ်ရန် အောက်ခြေဘားမှ ၎င်းကို နှိပ်ပါ။
+Switch the scanner on with O. More lights = a ghost is nearer
+    O ဖြင့် စကင်နာကို ဖွင့်ပါ။ မီးများလေ = သရဲနီးလေ
+Switch the scanner on with the power button. More lights = a ghost is nearer
+    ပါဝါခလုတ်ဖြင့် စကင်နာကို ဖွင့်ပါ။ မီးများလေ = သရဲနီးလေ
+She is coming! Hide under a bed, in a wardrobe or a cupboard with H
+    သူ လာနေပြီ! H ဖြင့် ကုတင်အောက်၊ ဗီရိုထဲ သို့ ဘီဒိုထဲ ပုန်းပါ
+She is coming! Hide under a bed, in a wardrobe or a cupboard with the hand button
+    သူ လာနေပြီ! လက်ပုံခလုတ်ဖြင့် ကုတင်အောက်၊ ဗီရိုထဲ သို့ ဘီဒိုထဲ ပုန်းပါ
+Walk up to the NPC
+    GCC ဝန်ထမ်းအနားသို့လျှောက်သွားပါ။
+Press U to open the upgrades
+    အဆင့်မြှင့်တင်ခြင်းစာမျက်နှာကိုဖွင့်ရန် “U” ကိုနှိပ်ပါ။
+Look at the NPC and tap the hand button to open the upgrades
+    အဆင့်မြှင့်တင်ခြင်းစာမျက်နှာကိုဖွင့်ရန် GCC ဝန်ထမ်းကိုကြည့်ပြီး လက်ပုံခလုတ်ကို နှိပ်ပါ။
+Pick an item with the arrows and press Enter to spend your point
+    ဘယ်/ညာ မြှားများကိုနှိပ်ပြီး အဆင့်မြှင့်လိုသည့် ကိရိယာကိုရွေးချယ်ပါ။ အဆင့်မြှင့်ရန် အလယ်ကခလုတ်ကို နှိပ်ပါ။
+Pick an item with the arrows and tap UPGRADE to spend your point
+    ဘယ်/ညာ မြှားများကိုနှိပ်ပြီး အဆင့်မြှင့်လိုသည့် ကိရိယာကိုရွေးချယ်ပါ။ အဆင့်မြှင့်ရန် UPGRADE ကိုနှိပ်ပါ။
+Close the upgrades with U
+    အမှတ်များကို အဆင့်မြှင့်ရန် အသုံးပြုပြီးပါပြီ။ ယခု ဤစာမျက်နှာကို ပိတ်နိုင်ပါပြီ။
+Close the upgrades
+    အမှတ်များကို အဆင့်မြှင့်ရန် အသုံးပြုပြီးပါပြီ။ ယခု ဤစာမျက်နှာကို ပိတ်နိုင်ပါပြီ။
+Stay inside the colored frame
+    အရောင်ဘောင်ထဲမှာပဲ နေပါ
+The woman stands in this room, she does nothing. Walk toward her: more lights = she is nearer
+    မိန်းမသရဲက ဒီအခန်းထဲမှာ ရပ်နေသည်၊ ဘာမှမလုပ်ပါ။ သူ့ဆီ လျှောက်သွားပါ - မီးများလေ = သူနီးလေ
+Now walk away from her: the lights go out
+    ယခု အဝေးသို့ပြန်ဆုတ်ကြည့်ပါ။ မီးလုံးအရေအတွက်နည်းသွားပါလိမ့်မည်။
+Try hiding: look at a bed, a wardrobe or a cupboard and press H
+    ပုန်းကြည့်ပါ - ကုတင်၊ ဗီရို သို့ ဘီဒိုကို ကြည့်ပြီး H နှိပ်ပါ
+Try hiding: look at a bed, a wardrobe or a cupboard and tap the hand button
+    ပုန်းကြည့်ပါ - ကုတင်၊ ဗီရို သို့ ဘီဒိုကို ကြည့်ပြီး လက်ပုံခလုတ်ကို နှိပ်ပါ
+UPGRADES
+    အဆင့်မြှင့်များ
+UPGRADE
+    အဆင့်မြှင့်မည်
+AGENT ROSTER
+    အေးဂျင့် စာရင်း
+MYANMAR  -  CLASSIFIED
+    မြန်မာ  -  လျို့ဝှက်ချက်
+ON DUTY
+    တာဝန်ထမ်းဆောင်နေ
+CLEARANCE
+    ခွင့်ပြုအဆင့်
+AGENT {0}
+    အေးဂျင့် {0}
+AGENT REGISTRY
+    အေးဂျင့် စာရင်းသွင်းရန်
+ONE ACCOUNT FOR THE GAME AND THE WEBSITE
+    ဂိမ်းနှင့် ဝက်ဘ်ဆိုက် အကောင့်တစ်ခုတည်း
+SIGN IN
+    ဝင်ရောက်မည်
+CREATE AGENT
+    အေးဂျင့် ဖန်တီးမည်
+CREATE MY AGENT ID
+    ကျွန်ုပ်၏ အေးဂျင့် ID ဖန်တီးမည်
+CODENAME
+    ကုဒ်အမည်
+PASSWORD
+    စကားဝှက်
+3 to 16 characters
+    စာလုံး ၃ လုံးမှ ၁၆ လုံး
+6 characters or more
+    စာလုံး ၆ လုံး သို့ ပိုများ
+SPECTRAL AGENT
+    ဝိညာဉ်ထိန်း အေးဂျင့်
+RANK
+    အဆင့်
+BEST SCORE
+    အကောင်းဆုံး ရမှတ်
+NIGHTS
+    ညများ
+LEADERBOARD
+    ရမှတ်ဇယား
+SIGN OUT
+    ထွက်မည်
+AGENT
+    အေးဂျင့်
+The codename needs at least 3 characters
+    ကုဒ်အမည်သည် အနည်းဆုံး စာလုံး ၃ လုံး လိုသည်
+The password needs at least 6 characters
+    စကားဝှက်သည် အနည်းဆုံး စာလုံး ၆ လုံး လိုသည်
+Creating your Agent ID
+    အေးဂျင့် ID ဖန်တီးနေသည်
+Signing in
+    ဝင်ရောက်နေသည်
+Wrong codename or password.
+    ကုဒ်အမည် သို့မဟုတ် စကားဝှက် မှားနေသည်
+This codename is taken.
+    ဤကုဒ်အမည်ကို အသုံးပြုပြီးဖြစ်သည်
+No connection to the server
+    ဆာဗာနှင့် ချိတ်ဆက်၍ မရပါ
+Too many tries. Wait a few minutes.
+    ကြိုးစားမှု များလွန်းသည်။ မိနစ်အနည်းငယ် စောင့်ပါ
+HIGH SCORES
+    အမြင့်ဆုံး ရမှတ်များ
+BEST NIGHT OF EACH AGENT
+    အေးဂျင့်တစ်ဦးစီ၏ အကောင်းဆုံးည
+SOULS
+    ဝိညာဉ်
+CAGES
+    လှောင်အိမ်
+SCORE
+    ရမှတ်
+LOADING
+    ဖွင့်နေသည်
+REFRESH
+    ပြန်လည်စတင်
+SIGN IN TO ENTER THE BOARD
+    ဇယားတွင် ပါဝင်ရန် ဝင်ရောက်ပါ
+PLAY TO BEAT YOUR BEST
+    သင့်အကောင်းဆုံးကို ကျော်လွှားရန် ကစားပါ
+THE BOARD IS NOT REACHABLE
+    ဇယားကို ချိတ်ဆက်၍ မရပါ
+NO SCORES YET. BE THE FIRST AGENT
+    ရမှတ် မရှိသေးပါ။ ပထမဆုံး အေးဂျင့် ဖြစ်ပါစေ
+THE HOUSE, THE PROPS AND THE EQUIPMENT
+    အိမ်၊ ပစ္စည်းများနှင့် ကိရိယာများ
+Insecure connection not allowed: see Player Settings
+    လုံခြုံမှုမရှိသော ချိတ်ဆက်မှုကို ခွင့်မပြုထားပါ
+LESSON {0}/{1}  [{2}]
+    အခန်း {0}/{1}  [{2}]
+How to use the Proton Emitter Gun
+    Proton Emitter Gun အသုံးပြုနည်း
+How to use the Faraday Cage
+    Faraday Cage အသုံးပြုနည်း
+How to use the EMF-Scanner
+    EMF-Scanner အသုံးပြုနည်း
+How to upgrade your tools
+    ကိရိယာတန်ဆာပလာများကိုအဆင့်မြှင့်တင်နည်း
+Guide:  W A S D move you. The mouse looks around.
+    အညွှန်း။   ။ W,A,S,D ဖြင့်ရွှေ့လျားမှုပြုလုပ်နိုင်ပါသည်။ Mouse ဖြင့်ပတ်လည်သို့ကြည့်ရှုနိုင်ပါသည်။
+Guide:  Hand the souls you collected in a Faraday Cage to the GCC worker and you get points.
+    အညွှန်း။   ။ Faraday Case ဖြင့်စုဆောင်းထားသော Soul များကို GCC ဝန်ထမ်းဆီသို့အပ်နှံပြီး အမှတ်များရယူနိုင်ပါသည်။
+Guide:  The EMF Scanner can detect the aura of a dangerous spirit.
+    အညွှန်း။   ။ အန္တရာယ်ရှိသော ဝိညာဉ်၏ အငွေ့အသက်ကိုထောက်လှမ်းရန် EMF Scanner ကိုအသုံးပြုနိုင်ပါသည်။
+Guide:  To catch stronger spirits you must upgrade your tools.
+    အညွှန်း။   ။ အဆင့်မြင့်သော ဝိညာဉ်များကို ဖမ်းနိုင်ရန် ကိရိယာများကိုအဆင့်မြှင့်တင်ရန်လိုအပ်ပါသည်။
+Tap “CONTINUE” to Continue...
+    ရှေ့ဆက်ရန် “CONTINUE” ကိုနှိပ်ပါ။
+CONTINUE
+    ရှေ့ဆက်ရန်
+(1)
+    (၁)
+(2)
+    (၂)
+(3)
+    (၃)
+(4)
+    (၄)
+(5)
+    (၅)
+(6)
+    (၆)
+The cage with the MEP is saved in your backpack. Open it and hold the filled cage
+    MEP ထည့်ထားသော Faraday Case အား Back Pack ထဲသို့ အလိုအလျောက်သိမ်းဆည်းပြီးပါပြီ။ Back Pack ကိုဖွင့်ပြီး ကိုင်ပါ။
+The cage with the MEP is saved in your BAG. Open it and hold the filled cage
+    MEP ထည့်ထားသော Faraday Case အား Back Pack ထဲသို့ အလိုအလျောက်သိမ်းဆည်းပြီးပါပြီ။ Back Pack ကိုဖွင့်ပြီး ကိုင်ပါ။
+Press O to switch the scanner on. The lights show how near a ghost is. Walk toward the woman
+    Scanner ကိုဖွင့်ရန် “O”(အို) ကိုနှိပ်ပါ။ အန္တရာယ်ရှိသော ဝိညာဉ်နှင့်အကွာအဝေးကို မီးလုံးအရေအတွက်ဖြင့် ပြသပါသည်။ အနားသို့သွားကြည့်ပါ။
+Tap the power button to switch the scanner on. The lights show how near a ghost is. Walk toward the woman
+    Scanner ကိုဖွင့်ရန် ပါဝါခလုတ်ကိုနှိပ်ပါ။ အန္တရာယ်ရှိသော ဝိညာဉ်နှင့်အကွာအဝေးကို မီးလုံးအရေအတွက်ဖြင့် ပြသပါသည်။ အနားသို့သွားကြည့်ပါ။
+That is everything an agent needs to know. May you complete the mission. Good luck, Agent.
+    အေးဂျင့်တစ်ယောက်အနေဖြင့် သိသင့်သိထိုက်သည်များအားလုံးကို ပြောပြပြီးပါပြီ။ Mission ကိုအောင်မြင်စွာကျော်ဖြတ်နိုင်ပါစေ။ ကံကောင်းပါစေ အေးဂျင့်။
+The EM needs an upgrade to take a Mirage ({1}% / {0}%). Press U at the NPC
+    Mirage ကိုလက်ခံရန် EM ကို အဆင့်မြှင့်ရန်လိုသည် ({1}% / {0}%)။ NPC ဆီတွင် U ကိုနှိပ်ပါ
+CREATE ON THE WEBSITE
+    ဝဘ်ဆိုဒ်တွင် ဖန်တီးရန်
+Do the robot check on the website, then sign in here
+    ဝဘ်ဆိုဒ်တွင် လူဟုတ်မဟုတ်စစ်ဆေးပြီး ဤနေရာတွင် ဝင်ရောက်ပါ
+DAY {0}
+    ရက် {0}
+Picture ready to share
+    ပုံကို မျှဝေရန် အဆင်သင့်ဖြစ်ပြီ
+Picture saved in Pictures / Leikpyar Hunters
+    ပုံကို Pictures / Leikpyar Hunters တွင် သိမ်းပြီးပြီ
+The picture could not be taken
+    ပုံကို မရိုက်နိုင်ပါ
+The picture could not be saved
+    ပုံကို မသိမ်းနိုင်ပါ
+Inhaler
+    အင်ဟေလာ
+BUY
+    ဝယ်မည်
+PRICE {0} POINTS
+    စျေးနှုန်း {0} မှတ်
+You have {0} / {1}
+    သင့်တွင် {0} / {1} ရှိသည်
+Bought 1 Inhaler
+    အင်ဟေလာ ၁ ခု ဝယ်ပြီးပြီ
+You can not carry more Inhalers
+    အင်ဟေလာ ထပ်မသယ်နိုင်တော့ပါ
+Not enough points: an Inhaler costs {0}
+    အမှတ်မလောက်ပါ - အင်ဟေလာတစ်ခုလျှင် {0} မှတ်
+No hotbar
+    ဟော့ဘားမရှိပါ
+GAME OVER
+    ဂိမ်းပြီးဆုံးပြီ
+THE GHOST CAUGHT YOU
+    သရဲက သင့်ကို ဖမ်းမိသွားပြီ
+DAY
+    ရက်
+SOULS SEALED
+    ပိတ်လှောင်ပြီး ဝိညာဉ်
+CAGES CHECKED
+    စစ်ဆေးပြီး လှောင်အိမ်
+NIGHTS SURVIVED
+    အသက်ရှင်ခဲ့သော ည
+Sign in to put your score on the board
+    အမှတ်ကို ဇယားထဲ တင်ရန် ဝင်ရောက်ပါ
+TRY AGAIN
+    ထပ်ကြိုးစားမည်
+MAIN MENU
+    ပင်မမီနူး
+Enter  try again        Esc  main menu
+    Enter  ထပ်ကြိုးစားရန်        Esc  ပင်မမီနူး
+SKIP TO 6 PM
+    ညနေ ၆ နာရီသို့ ကျော်ရန်
+It is 6 PM
+    ညနေ ၆ နာရီ ဖြစ်ပြီ
+Sign in from the main menu to save your game
+    ဂိမ်းသိမ်းရန် ပင်မမီနူးမှ ဝင်ရောက်ပါ
+Saving...
+    သိမ်းနေသည်...
+Game saved. Continue it from the main menu
+    ဂိမ်းကို သိမ်းပြီးပြီ။ ပင်မမီနူးမှ ဆက်ကစားနိုင်သည်
+The game could not be saved
+    ဂိမ်းကို မသိမ်းနိုင်ပါ
+The training can not be saved
+    လေ့ကျင့်ရေးကို မသိမ်းနိုင်ပါ
+Saved game loaded
+    သိမ်းထားသောဂိမ်းကို ဖွင့်ပြီးပြီ
+Loading the saved game
+    သိမ်းထားသောဂိမ်းကို ဖွင့်နေသည်
+No saved game
+    သိမ်းထားသော ဂိမ်း မရှိပါ
+DAY {0}  ·  {1}
+    ရက် {0}  ·  {1}
+Too many saves. Wait a few minutes.
+    သိမ်းမှု များလွန်းသည်။ မိနစ်အနည်းငယ် စောင့်ပါ။
+Letter
+    စာ
+An old letter.
+    ဟောင်းနွမ်းသော စာတစ်စောင်။
+Click to read
+    ဖတ်ရန် နှိပ်ပါ
+Click anywhere or press Esc to close
+    ပိတ်ရန် မည်သည့်နေရာကိုမဆို နှိပ်ပါ သို့မဟုတ် Esc နှိပ်ပါ
+Tap anywhere to close
+    ပိတ်ရန် မည်သည့်နေရာကိုမဆို ထိပါ
+LEIKPYAR
+    လိပ်ပြာ
+PRESS ANY KEY TO ENTER
+    ဂိမ်းထဲဝင်ရန် ခလုတ်တစ်ခုခုကို နှိပ်ပါ
+TAP TO ENTER
+    ဂိမ်းထဲဝင်ရန် မျက်နှာပြင်ကို ထိပါ
+PRESS ENTER TO CONTINUE
+    ဆက်သွားရန် Enter ကို နှိပ်ပါ
+Hide the Safari toolbar
+    Safari ကိရိယာဘားကို ဖျောက်ပါ
+Tap aA in the address bar, then tap Hide Toolbar.
+    လိပ်စာဘားရှိ aA ကို နှိပ်ပြီး Hide Toolbar ကို နှိပ်ပါ။
+For no toolbar at all: tap Share, choose "Add to Home Screen", then open the game from the new icon.
+    ကိရိယာဘား လုံးဝမရှိစေလိုလျှင် Share ကို နှိပ်၍ "Add to Home Screen" ကို ရွေးပါ၊ ထို့နောက် အိုင်ကွန်အသစ်မှ ဂိမ်းကို ဖွင့်ပါ။
+Tap Play Fullscreen
+    Play Fullscreen ကို နှိပ်ပါ
+The browser bar goes away
+    ဘရောက်ဇာဘား ပျောက်သွားမည်
+Tap aA in the address bar
+    လိပ်စာဘားရှိ aA ကို နှိပ်ပါ
+Tap Hide Toolbar
+    Hide Toolbar ကို နှိပ်ပါ
+Done: the toolbar is hidden
+    ပြီးပါပြီ - ကိရိယာဘား ပျောက်သွားသည်
+FULL SCREEN
+    ဖန်သားပြင်အပြည့်
+TAP AGAIN TO LEAVE
+    ထွက်ရန် ထပ်နှိပ်ပါ
+GENDER
+    ကျား/မ
+MALE
+    အမျိုးသား
+FEMALE
+    အမျိုးသမီး
+CHOOSE YOUR GENDER
+    ကျား/မ ရွေးချယ်ပါ
+Choose Male or Female to continue.
+    ဆက်သွားရန် အမျိုးသား သို့မဟုတ် အမျိုးသမီး ရွေးချယ်ပါ။
+Choose Male or Female
+    အမျိုးသား သို့မဟုတ် အမျိုးသမီး ရွေးချယ်ပါ
+Proton Emitter Gun
+    ပရိုတွန်လွှင့်ထုတ်သေနတ်
+EMF Scanner
+    သံလိုက်စက်ကွင်းဖမ်းစက်
+EM-Tethering Machine
+    သံလိုက်စက်ကွင်းဖိသိပ်စက်
+Molecular Encapsulation Phial - MEP
+    မော်လီကျူးပိတ်လှောင်ဖန်ပြွန်
+Bio-cellular Injector
+    ဇီဝအားဖြည့်ဆေးထိုးအပ်
+{0} a night
+    တစ်ညလျှင် {0} ခု
+NEXT: {0} A NIGHT = {1} POINTS
+    နောက်အဆင့် - တစ်ညလျှင် {0} ခု = ပွိုင့် {1}
+MOST
+    အများဆုံး
+MEP is already at the most: {0} a night
+    MEP သည် အများဆုံးဖြစ်ပြီ - တစ်ညလျှင် {0} ခု
+Not enough points: {0} are needed for {1} MEP a night
+    ပွိုင့်မလုံလောက်ပါ - တစ်ညလျှင် MEP {1} ခုအတွက် ပွိုင့် {0} လိုသည်
+MEP {0} > {1} a night   (-{2} points)
+    MEP တစ်ညလျှင် {0} > {1} ခု   (-ပွိုင့် {2})
+No more MEP tonight ({0} / {1}). Upgrade the MEP at the NPC (U)
+    ဒီညအတွက် MEP ထပ်မထုတ်နိုင်တော့ပါ ({0} / {1})။ NPC ထံတွင် (U) ဖြင့် MEP ကို မြှင့်တင်ပါ
+You don't have enough MEP left
+    သင့်မှာလက်ကျန် MEP မလုံလောက်ပါ

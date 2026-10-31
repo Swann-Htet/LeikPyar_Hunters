@@ -1,0 +1,1549 @@
+{
+ "entries": [
+  {
+   "k": "START NEW GAME",
+   "v": " "
+  },
+  {
+   "k": "LOAD GAME",
+   "v": ""
+  },
+  {
+   "k": "CREDITS",
+   "v": ""
+  },
+  {
+   "k": "QUIT",
+   "v": ""
+  },
+  {
+   "k": "BACK",
+   "v": ""
+  },
+  {
+   "k": "SPECTRAL",
+   "v": ""
+  },
+  {
+   "k": "AGENTS",
+   "v": ""
+  },
+  {
+   "k": "SURVIVE THE NIGHT",
+   "v": " "
+  },
+  {
+   "k": "HEADPHONES RECOMMENDED   -   PLAY IN THE DARK",
+   "v": "   -    "
+  },
+  {
+   "k": "NO SAVED GAME YET",
+   "v": "  "
+  },
+  {
+   "k": "CLOSE THIS TAB TO QUIT",
+   "v": "  "
+  },
+  {
+   "k": "GAME DESIGNER",
+   "v": ""
+  },
+  {
+   "k": "SOUND",
+   "v": ""
+  },
+  {
+   "k": "DEVELOPER",
+   "v": ""
+  },
+  {
+   "k": "3D ART",
+   "v": " "
+  },
+  {
+   "k": "TORCH",
+   "v": ""
+  },
+  {
+   "k": "BACKPACK  [B]",
+   "v": "  [B]"
+  },
+  {
+   "k": "Empty Faraday Cage",
+   "v": "  "
+  },
+  {
+   "k": "Faraday Cage",
+   "v": " "
+  },
+  {
+   "k": "Molecular Encapsulation Phial",
+   "v": " "
+  },
+  {
+   "k": "Capsule",
+   "v": ""
+  },
+  {
+   "k": "Gun",
+   "v": ""
+  },
+  {
+   "k": "Radio",
+   "v": ""
+  },
+  {
+   "k": "[E] Take {0}",
+   "v": "[E] {0}  "
+  },
+  {
+   "k": "[E] Take back",
+   "v": "[E] "
+  },
+  {
+   "k": "[E] Interact",
+   "v": "[E] "
+  },
+  {
+   "k": "[F] Close Door",
+   "v": "[F]  "
+  },
+  {
+   "k": "[F] Open Door",
+   "v": "[F]  "
+  },
+  {
+   "k": "Inventory full",
+   "v": " "
+  },
+  {
+   "k": "Left click: drop {0}",
+   "v": ": {0}  "
+  },
+  {
+   "k": "Fill or take back the dropped cage first",
+   "v": "     "
+  },
+  {
+   "k": "Click to hold in your hand",
+   "v": "  "
+  },
+  {
+   "k": "Put {0} in this cage   [F]",
+   "v": " {0}    [F]"
+  },
+  {
+   "k": "No {0}",
+   "v": "{0} "
+  },
+  {
+   "k": "{0} added to inventory",
+   "v": "{0}   "
+  },
+  {
+   "k": "Put {0} on the table   [F]",
+   "v": "{0}     [F]"
+  },
+  {
+   "k": "Bring a filled Faraday Cage here",
+   "v": "    "
+  },
+  {
+   "k": "The table is full. Wait until a check is done",
+   "v": "   "
+  },
+  {
+   "k": "Only a filled Faraday Cage can be checked here",
+   "v": "    "
+  },
+  {
+   "k": "Checking the cage...  {0}",
+   "v": " ...  {0}"
+  },
+  {
+   "k": "CHECKING  {0}",
+   "v": "  {0}"
+  },
+  {
+   "k": "WAITING (closed)  {0}",
+   "v": " ()  {0}"
+  },
+  {
+   "k": "CHECKED",
+   "v": ""
+  },
+  {
+   "k": "Your empty {0} is back on the table",
+   "v": " {0}   "
+  },
+  {
+   "k": "The table is closed   (open {0} - {1})",
+   "v": "    ( {0} - {1})"
+  },
+  {
+   "k": "Total Point {0}",
+   "v": "  {0}"
+  },
+  {
+   "k": "No points. Check a Faraday Cage on the Drop Table to earn one",
+   "v": "      "
+  },
+  {
+   "k": "<   >  browse        Enter or +  upgrade        U  close",
+   "v": "<   >          Enter  +          U  "
+  },
+  {
+   "k": "+{0} POINT   (press U to upgrade)",
+   "v": "+{0}    ( U  )"
+  },
+  {
+   "k": "{0} +{1}%  >  {2}%   LEVEL {3}!",
+   "v": "{0} +{1}%  >  {2}%    {3}!"
+  },
+  {
+   "k": "{0} +{1}%  >  {2}%",
+   "v": "{0} +{1}%  >  {2}%"
+  },
+  {
+   "k": "{0} is already at the maximum",
+   "v": "{0}   "
+  },
+  {
+   "k": "LEVEL {0} / {1}",
+   "v": " {0} / {1}"
+  },
+  {
+   "k": "Level {0}  -  {1}%",
+   "v": " {0}  -  {1}%"
+  },
+  {
+   "k": "Gun overheated! Cooling down {0}s",
+   "v": " !  {0}  "
+  },
+  {
+   "k": "The ghost broke free! Catch it again",
+   "v": " ! "
+  },
+  {
+   "k": "Hold [Left Click] to pull baby ghost",
+   "v": "  [Left Click]  "
+  },
+  {
+   "k": "Pulling baby ghost... {0}%",
+   "v": " ... {0}%"
+  },
+  {
+   "k": "Keep holding [Left Click] and walk. Take the baby ghost to the generator",
+   "v": "[Left Click]      "
+  },
+  {
+   "k": "The ghost is too far - get closer",
+   "v": "  -  "
+  },
+  {
+   "k": "Aim the crosshair at the ghost, then hold [Left Click]",
+   "v": "  [Left Click]  "
+  },
+  {
+   "k": "Producing capsule... {0}s",
+   "v": " ... {0} "
+  },
+  {
+   "k": "Play in Fullscreen",
+   "v": " "
+  },
+  {
+   "k": "Add to Home Screen for Fullscreen",
+   "v": " Home Screen  "
+  },
+  {
+   "k": "Tap the button to hide the browser bar and play fullscreen.",
+   "v": "     "
+  },
+  {
+   "k": "Turn your phone sideways (landscape) for the best view.",
+   "v": "    "
+  },
+  {
+   "k": "This browser cannot hide the URL bar by itself.",
+   "v": " URL   "
+  },
+  {
+   "k": "Tap the Share button, choose \"Add to Home Screen\", then open the game from the new icon.",
+   "v": "Share   \"Add to Home Screen\"      "
+  },
+  {
+   "k": "Play Fullscreen",
+   "v": " "
+  },
+  {
+   "k": "Continue",
+   "v": ""
+  },
+  {
+   "k": "@language_name",
+   "v": ""
+  },
+  {
+   "k": "@period_morning",
+   "v": ""
+  },
+  {
+   "k": "@period_noon",
+   "v": ""
+  },
+  {
+   "k": "@period_evening",
+   "v": ""
+  },
+  {
+   "k": "@period_night",
+   "v": ""
+  },
+  {
+   "k": "SETTINGS",
+   "v": ""
+  },
+  {
+   "k": "GAME",
+   "v": ""
+  },
+  {
+   "k": "CONTROLS",
+   "v": ""
+  },
+  {
+   "k": "Mouse Sensitivity",
+   "v": " "
+  },
+  {
+   "k": "Touch Sensitivity",
+   "v": " "
+  },
+  {
+   "k": "Invert Look (Y)",
+   "v": "  (Y)"
+  },
+  {
+   "k": "Field of View",
+   "v": " "
+  },
+  {
+   "k": "Brightness",
+   "v": ""
+  },
+  {
+   "k": "Volume",
+   "v": ""
+  },
+  {
+   "k": "Graphics Quality",
+   "v": " "
+  },
+  {
+   "k": "Fullscreen",
+   "v": ""
+  },
+  {
+   "k": "Show FPS",
+   "v": "FPS "
+  },
+  {
+   "k": "Language",
+   "v": ""
+  },
+  {
+   "k": "ON",
+   "v": ""
+  },
+  {
+   "k": "OFF",
+   "v": ""
+  },
+  {
+   "k": "RESET",
+   "v": " "
+  },
+  {
+   "k": "CLOSE",
+   "v": ""
+  },
+  {
+   "k": "Low",
+   "v": ""
+  },
+  {
+   "k": "Medium",
+   "v": ""
+  },
+  {
+   "k": "High",
+   "v": ""
+  },
+  {
+   "k": "WASD  -  Move",
+   "v": "WASD  -  "
+  },
+  {
+   "k": "Shift  -  Run",
+   "v": "Shift  -  "
+  },
+  {
+   "k": "Ctrl  -  Walk slowly",
+   "v": "Ctrl  -  "
+  },
+  {
+   "k": "Space  -  Jump",
+   "v": "Space  -  "
+  },
+  {
+   "k": "Mouse  -  Look around",
+   "v": "  -  "
+  },
+  {
+   "k": "Left Click  -  Pull ghost with the gun",
+   "v": "  -    "
+  },
+  {
+   "k": "E  -  Take / Interact",
+   "v": "E  -   / "
+  },
+  {
+   "k": "F  -  Open door / Put / Fill",
+   "v": "F  -   / "
+  },
+  {
+   "k": "B  -  Backpack",
+   "v": "B  -  "
+  },
+  {
+   "k": "U  -  Upgrades",
+   "v": "U  -  "
+  },
+  {
+   "k": "T  -  Torch",
+   "v": "T  -  "
+  },
+  {
+   "k": "P  -  Settings",
+   "v": "P  -  "
+  },
+  {
+   "k": "LOW HEALTH!",
+   "v": " !"
+  },
+  {
+   "k": "Health is critical.",
+   "v": " "
+  },
+  {
+   "k": "Find a health pack or take cover.",
+   "v": "   "
+  },
+  {
+   "k": "Hold [Left Click] to pull Orb",
+   "v": "Orb   [Left Click]  "
+  },
+  {
+   "k": "Pulling Orb... {0}%",
+   "v": "Orb  ... {0}%"
+  },
+  {
+   "k": "Keep holding [Left Click] and walk. Take the Orb to the generator",
+   "v": "[Left Click]    Orb   "
+  },
+  {
+   "k": "Hold [Left Click] to pull Mirage",
+   "v": "Mirage   [Left Click]  "
+  },
+  {
+   "k": "Pulling Mirage... {0}%",
+   "v": "Mirage  ... {0}%"
+  },
+  {
+   "k": "Keep holding [Left Click] and walk. Take the Mirage to the generator",
+   "v": "[Left Click]    Mirage   "
+  },
+  {
+   "k": "Hold [Left Click] to pull Solid",
+   "v": "Solid   [Left Click]  "
+  },
+  {
+   "k": "Pulling Solid... {0}%",
+   "v": "Solid  ... {0}%"
+  },
+  {
+   "k": "Keep holding [Left Click] and walk. Take the Solid to the generator",
+   "v": "[Left Click]    Solid   "
+  },
+  {
+   "k": "The Mirage runs away from a weak gun - upgrade the gun",
+   "v": " Mirage   -  "
+  },
+  {
+   "k": "Scanner battery is empty",
+   "v": "  "
+  },
+  {
+   "k": "Scanner battery is too low",
+   "v": "  "
+  },
+  {
+   "k": "Morning: the scanner battery is charged",
+   "v": " -   "
+  },
+  {
+   "k": "[O] Open scanner to scan",
+   "v": "[O]   "
+  },
+  {
+   "k": "[H] Hide under the bed",
+   "v": "[H]  "
+  },
+  {
+   "k": "[H] Hide in the wardrobe",
+   "v": "[H]  "
+  },
+  {
+   "k": "[H] Hide in the cupboard",
+   "v": "[H]  "
+  },
+  {
+   "k": "[H] Come out",
+   "v": "[H] "
+  },
+  {
+   "k": "She is too close!",
+   "v": " !"
+  },
+  {
+   "k": "TUTORIAL",
+   "v": ""
+  },
+  {
+   "k": "Move around with W A S D",
+   "v": "W A S D  "
+  },
+  {
+   "k": "Move with the joystick",
+   "v": " "
+  },
+  {
+   "k": "Look around with the mouse",
+   "v": " "
+  },
+  {
+   "k": "Drag your finger on the screen to look around",
+   "v": "   "
+  },
+  {
+   "k": "Open a door: look at it and press F",
+   "v": "  F  "
+  },
+  {
+   "k": "Open a door: look at it and tap the hand button",
+   "v": "    "
+  },
+  {
+   "k": "Open the backpack with B",
+   "v": "B   "
+  },
+  {
+   "k": "Open the backpack with the BAG button",
+   "v": "BAG   "
+  },
+  {
+   "k": "Turn the torch on with T",
+   "v": "T   "
+  },
+  {
+   "k": "Turn the torch on with the torch button",
+   "v": "  "
+  },
+  {
+   "k": "Walk the Orb to the generator (keep holding)",
+   "v": "Orb    ()"
+  },
+  {
+   "k": "Walk the Orb to the generator (keep the pull on)",
+   "v": "Orb    ( )"
+  },
+  {
+   "k": "Go to the NPC, press U to open the upgrades, then close them",
+   "v": "NPC  U    "
+  },
+  {
+   "k": "Look at the NPC, tap the hand button to open the upgrades, then close them",
+   "v": "NPC      "
+  },
+  {
+   "k": "A ghost is coming! Hide under a bed or in a wardrobe with H",
+   "v": " ! H     "
+  },
+  {
+   "k": "A ghost is coming! Hide under a bed or in a wardrobe with the hand button",
+   "v": " !     "
+  },
+  {
+   "k": "Stay hidden until she goes away",
+   "v": "  "
+  },
+  {
+   "k": "Press H to come out",
+   "v": "H  "
+  },
+  {
+   "k": "Come out with the hand button",
+   "v": " "
+  },
+  {
+   "k": "TRAINING COMPLETE",
+   "v": " "
+  },
+  {
+   "k": "You know everything you need. Good luck tonight.",
+   "v": "   "
+  },
+  {
+   "k": "PLAY THE GAME",
+   "v": ""
+  },
+  {
+   "k": "BACK TO THE MENU",
+   "v": " "
+  },
+  {
+   "k": "SKIP",
+   "v": ""
+  },
+  {
+   "k": "MENU",
+   "v": ""
+  },
+  {
+   "k": "N  skip      M  menu",
+   "v": "N        M  "
+  },
+  {
+   "k": "GUIDE",
+   "v": ""
+  },
+  {
+   "k": "START TRAINING",
+   "v": " "
+  },
+  {
+   "k": "Move",
+   "v": ""
+  },
+  {
+   "k": "Look around",
+   "v": ""
+  },
+  {
+   "k": "Run",
+   "v": ""
+  },
+  {
+   "k": "Jump",
+   "v": ""
+  },
+  {
+   "k": "Open doors, use the table",
+   "v": "  "
+  },
+  {
+   "k": "Take items",
+   "v": ""
+  },
+  {
+   "k": "Backpack",
+   "v": ""
+  },
+  {
+   "k": "Torch",
+   "v": ""
+  },
+  {
+   "k": "Gun: take out or put away",
+   "v": " -   "
+  },
+  {
+   "k": "Pull the ghost, drop the held item",
+   "v": "    "
+  },
+  {
+   "k": "Scanner: take out or put away",
+   "v": " -   "
+  },
+  {
+   "k": "Scanner: switch on or off",
+   "v": " -   "
+  },
+  {
+   "k": "Hide under a bed, in a wardrobe or a cupboard",
+   "v": "   "
+  },
+  {
+   "k": "Upgrades (at the NPC)",
+   "v": " (NPC )"
+  },
+  {
+   "k": "Settings",
+   "v": ""
+  },
+  {
+   "k": "This guide",
+   "v": ""
+  },
+  {
+   "k": "Use, take, pull the ghost",
+   "v": "   "
+  },
+  {
+   "k": "Upgrade at the NPC (7 AM - 4 PM)",
+   "v": "NPC   (   -   )"
+  },
+  {
+   "k": "[U] Upgrade",
+   "v": "[U] "
+  },
+  {
+   "k": "You can carry only one kind of item. Use or drop the {0} first",
+   "v": "  {0}     "
+  },
+  {
+   "k": "Take out the gun with 1",
+   "v": "Proton Emitter Gun   “1” "
+  },
+  {
+   "k": "Take out the gun: tap it on the bottom bar",
+   "v": "Proton Emitter Gun    "
+  },
+  {
+   "k": "Take out the scanner with 2, then switch it on with O",
+   "v": "2    O  "
+  },
+  {
+   "k": "Take out the scanner on the bottom bar, then switch it on",
+   "v": "   "
+  },
+  {
+   "k": "Take out the gun with 1, aim at the glowing Orb and hold Left Click",
+   "v": "1     Orb   Left Click  "
+  },
+  {
+   "k": "Take out the gun, aim at the glowing Orb and tap the hand button",
+   "v": "   Orb    "
+  },
+  {
+   "k": "Injector: take out or put away",
+   "v": " -   "
+  },
+  {
+   "k": "Pull the ghost, use the injector, drop the held item",
+   "v": "     "
+  },
+  {
+   "k": "Use, take, pull the ghost, use the injector",
+   "v": "    "
+  },
+  {
+   "k": "Bottom bar",
+   "v": ""
+  },
+  {
+   "k": "Gun, scanner, injector: tap to take out or put away",
+   "v": "   -    "
+  },
+  {
+   "k": "Health is full",
+   "v": " "
+  },
+  {
+   "k": "No injectors left",
+   "v": " "
+  },
+  {
+   "k": "1 2 3  -  Gun / Scanner / Injector",
+   "v": "1 2 3  -   /  / "
+  },
+  {
+   "k": "O  -  Scanner on / off",
+   "v": "O  -   /"
+  },
+  {
+   "k": "Text Size",
+   "v": ""
+  },
+  {
+   "k": "SIZE",
+   "v": ""
+  },
+  {
+   "k": "ROOM {0} / {1}",
+   "v": " {0} / {1}"
+  },
+  {
+   "k": "GUN + MEP",
+   "v": " + MEP"
+  },
+  {
+   "k": "FARADAY CAGE",
+   "v": " "
+  },
+  {
+   "k": "RADAR + SOLID",
+   "v": " + Solid "
+  },
+  {
+   "k": "NPC",
+   "v": "NPC"
+  },
+  {
+   "k": "The gun pulls an Orb out of the dark. Walk it to the generator and the generator makes a MEP. (W A S D move, mouse looks)   Enter: start",
+   "v": "  Orb     MEP  (W A S D   )   Enter: "
+  },
+  {
+   "k": "The gun pulls an Orb out of the dark. Walk it to the generator and the generator makes a MEP.",
+   "v": "  Orb     MEP "
+  },
+  {
+   "k": "A MEP goes into an empty Faraday Cage. The filled cage goes on the Drop Table, the NPC checks it and you get a point.   Enter: start",
+   "v": "MEP        Drop Table  NPC     Enter: "
+  },
+  {
+   "k": "A MEP goes into an empty Faraday Cage. The filled cage goes on the Drop Table, the NPC checks it and you get a point.",
+   "v": "MEP        Drop Table  NPC  "
+  },
+  {
+   "k": "The scanner lights tell how near a ghost is. Then the woman (Solid) comes: hide, and she goes away.   Enter: start",
+   "v": "      (Solid)  -     Enter: "
+  },
+  {
+   "k": "The scanner lights tell how near a ghost is. Then the woman (Solid) comes: hide, and she goes away.",
+   "v": "      (Solid)  -  "
+  },
+  {
+   "k": "The NPC upgrades your tools. Every checked cage is a point: spend it on the gun, the EM, the MEP or the radio.   Enter: start",
+   "v": "NPC       -  EM MEP      Enter: "
+  },
+  {
+   "k": "The NPC upgrades your tools. Every checked cage is a point: spend it on the gun, the EM, the MEP or the radio.",
+   "v": "NPC       -  EM MEP   "
+  },
+  {
+   "k": "Aim at the glowing Orb and hold Left Click until it is pulled",
+   "v": " “Soul Orb”  “Left Click”  "
+  },
+  {
+   "k": "Aim at the glowing Orb and tap the hand button",
+   "v": " “Soul Orb”   "
+  },
+  {
+   "k": "Keep the Orb pulled and walk it to the generator",
+   "v": "Soul Orb  EM-Tethering  "
+  },
+  {
+   "k": "Keep the pull on and walk the Orb to the generator",
+   "v": "Soul Orb  EM-Tethering  "
+  },
+  {
+   "k": "The generator is making a MEP. Wait a moment",
+   "v": "EM-Tethering  "
+  },
+  {
+   "k": "Look at the MEP and press E to take it",
+   "v": "Molecular Encapsulation Phial - (MEP)    “E” "
+  },
+  {
+   "k": "Look at the MEP and tap the hand button",
+   "v": "Molecular Encapsulation Phial - (MEP)     "
+  },
+  {
+   "k": "Open the backpack with B and click the Empty Faraday Cage to hold it",
+   "v": "Back Pack  “B”  Back Pack  Faraday Case  “Left Click”  "
+  },
+  {
+   "k": "Open the BAG and tap the Empty Faraday Cage to hold it",
+   "v": "Back Pack  Back Pack  Faraday Case   "
+  },
+  {
+   "k": "Left click to drop the cage on the floor",
+   "v": "Faraday Case   “Left Click”  "
+  },
+  {
+   "k": "Tap DROP to drop the cage on the floor",
+   "v": "Faraday Case   DROP "
+  },
+  {
+   "k": "Look at the cage and press F to put the MEP inside",
+   "v": "MEP  Faraday Case  “F” "
+  },
+  {
+   "k": "Look at the cage and tap the hand button to put the MEP inside",
+   "v": "MEP  Faraday Case   "
+  },
+  {
+   "k": "Open the backpack and hold the filled Faraday Cage",
+   "v": "    "
+  },
+  {
+   "k": "Open the BAG and hold the filled Faraday Cage",
+   "v": "BAG     "
+  },
+  {
+   "k": "Go to the Drop Table and press F to put the cage on it",
+   "v": "Drop Table  Faraday Case   “F” "
+  },
+  {
+   "k": "Go to the Drop Table and tap the hand button to put the cage on it",
+   "v": "Drop Table  Faraday Case    "
+  },
+  {
+   "k": "The NPC checks the cage. Wait for your point",
+   "v": "GCC    "
+  },
+  {
+   "k": "Take out the scanner with 2",
+   "v": "EMF-Scanner   “2” "
+  },
+  {
+   "k": "Take out the scanner: tap it on the bottom bar",
+   "v": "EMF-Scanner    "
+  },
+  {
+   "k": "Switch the scanner on with O. More lights = a ghost is nearer",
+   "v": "O     = "
+  },
+  {
+   "k": "Switch the scanner on with the power button. More lights = a ghost is nearer",
+   "v": "    = "
+  },
+  {
+   "k": "She is coming! Hide under a bed, in a wardrobe or a cupboard with H",
+   "v": " ! H      "
+  },
+  {
+   "k": "She is coming! Hide under a bed, in a wardrobe or a cupboard with the hand button",
+   "v": " !      "
+  },
+  {
+   "k": "Walk up to the NPC",
+   "v": "GCC "
+  },
+  {
+   "k": "Press U to open the upgrades",
+   "v": " “U” "
+  },
+  {
+   "k": "Look at the NPC and tap the hand button to open the upgrades",
+   "v": " GCC   "
+  },
+  {
+   "k": "Pick an item with the arrows and press Enter to spend your point",
+   "v": "/      "
+  },
+  {
+   "k": "Pick an item with the arrows and tap UPGRADE to spend your point",
+   "v": "/     UPGRADE "
+  },
+  {
+   "k": "Close the upgrades with U",
+   "v": "     "
+  },
+  {
+   "k": "Close the upgrades",
+   "v": "     "
+  },
+  {
+   "k": "Stay inside the colored frame",
+   "v": " "
+  },
+  {
+   "k": "The woman stands in this room, she does nothing. Walk toward her: more lights = she is nearer",
+   "v": "      -  = "
+  },
+  {
+   "k": "Now walk away from her: the lights go out",
+   "v": "  "
+  },
+  {
+   "k": "Try hiding: look at a bed, a wardrobe or a cupboard and press H",
+   "v": " -      H "
+  },
+  {
+   "k": "Try hiding: look at a bed, a wardrobe or a cupboard and tap the hand button",
+   "v": " -       "
+  },
+  {
+   "k": "UPGRADES",
+   "v": ""
+  },
+  {
+   "k": "UPGRADE",
+   "v": ""
+  },
+  {
+   "k": "AGENT ROSTER",
+   "v": " "
+  },
+  {
+   "k": "MYANMAR  -  CLASSIFIED",
+   "v": "  -  "
+  },
+  {
+   "k": "ON DUTY",
+   "v": ""
+  },
+  {
+   "k": "CLEARANCE",
+   "v": ""
+  },
+  {
+   "k": "AGENT {0}",
+   "v": " {0}"
+  },
+  {
+   "k": "AGENT REGISTRY",
+   "v": " "
+  },
+  {
+   "k": "ONE ACCOUNT FOR THE GAME AND THE WEBSITE",
+   "v": "  "
+  },
+  {
+   "k": "SIGN IN",
+   "v": ""
+  },
+  {
+   "k": "CREATE AGENT",
+   "v": " "
+  },
+  {
+   "k": "CREATE MY AGENT ID",
+   "v": "  ID "
+  },
+  {
+   "k": "CODENAME",
+   "v": ""
+  },
+  {
+   "k": "PASSWORD",
+   "v": ""
+  },
+  {
+   "k": "3 to 16 characters",
+   "v": "    "
+  },
+  {
+   "k": "6 characters or more",
+   "v": "    "
+  },
+  {
+   "k": "SPECTRAL AGENT",
+   "v": " "
+  },
+  {
+   "k": "RANK",
+   "v": ""
+  },
+  {
+   "k": "BEST SCORE",
+   "v": " "
+  },
+  {
+   "k": "NIGHTS",
+   "v": ""
+  },
+  {
+   "k": "LEADERBOARD",
+   "v": ""
+  },
+  {
+   "k": "SIGN OUT",
+   "v": ""
+  },
+  {
+   "k": "AGENT",
+   "v": ""
+  },
+  {
+   "k": "The codename needs at least 3 characters",
+   "v": "     "
+  },
+  {
+   "k": "The password needs at least 6 characters",
+   "v": "     "
+  },
+  {
+   "k": "Creating your Agent ID",
+   "v": " ID "
+  },
+  {
+   "k": "Signing in",
+   "v": ""
+  },
+  {
+   "k": "Wrong codename or password.",
+   "v": "   "
+  },
+  {
+   "k": "This codename is taken.",
+   "v": " "
+  },
+  {
+   "k": "No connection to the server",
+   "v": "  "
+  },
+  {
+   "k": "Too many tries. Wait a few minutes.",
+   "v": "   "
+  },
+  {
+   "k": "HIGH SCORES",
+   "v": " "
+  },
+  {
+   "k": "BEST NIGHT OF EACH AGENT",
+   "v": " "
+  },
+  {
+   "k": "SOULS",
+   "v": ""
+  },
+  {
+   "k": "CAGES",
+   "v": ""
+  },
+  {
+   "k": "SCORE",
+   "v": ""
+  },
+  {
+   "k": "LOADING",
+   "v": ""
+  },
+  {
+   "k": "REFRESH",
+   "v": ""
+  },
+  {
+   "k": "SIGN IN TO ENTER THE BOARD",
+   "v": "  "
+  },
+  {
+   "k": "PLAY TO BEAT YOUR BEST",
+   "v": "  "
+  },
+  {
+   "k": "THE BOARD IS NOT REACHABLE",
+   "v": "  "
+  },
+  {
+   "k": "NO SCORES YET. BE THE FIRST AGENT",
+   "v": "    "
+  },
+  {
+   "k": "THE HOUSE, THE PROPS AND THE EQUIPMENT",
+   "v": "  "
+  },
+  {
+   "k": "Insecure connection not allowed: see Player Settings",
+   "v": "  "
+  },
+  {
+   "k": "LESSON {0}/{1}  [{2}]",
+   "v": " {0}/{1}  [{2}]"
+  },
+  {
+   "k": "How to use the Proton Emitter Gun",
+   "v": "Proton Emitter Gun "
+  },
+  {
+   "k": "How to use the Faraday Cage",
+   "v": "Faraday Cage "
+  },
+  {
+   "k": "How to use the EMF-Scanner",
+   "v": "EMF-Scanner "
+  },
+  {
+   "k": "How to upgrade your tools",
+   "v": ""
+  },
+  {
+   "k": "Guide:  W A S D move you. The mouse looks around.",
+   "v": "    W,A,S,D  Mouse "
+  },
+  {
+   "k": "Guide:  Hand the souls you collected in a Faraday Cage to the GCC worker and you get points.",
+   "v": "    Faraday Case  Soul  GCC  "
+  },
+  {
+   "k": "Guide:  The EMF Scanner can detect the aura of a dangerous spirit.",
+   "v": "       EMF Scanner "
+  },
+  {
+   "k": "Guide:  To catch stronger spirits you must upgrade your tools.",
+   "v": "       "
+  },
+  {
+   "k": "Tap “CONTINUE” to Continue...",
+   "v": " “CONTINUE” "
+  },
+  {
+   "k": "CONTINUE",
+   "v": ""
+  },
+  {
+   "k": "(1)",
+   "v": "()"
+  },
+  {
+   "k": "(2)",
+   "v": "()"
+  },
+  {
+   "k": "(3)",
+   "v": "()"
+  },
+  {
+   "k": "(4)",
+   "v": "()"
+  },
+  {
+   "k": "(5)",
+   "v": "()"
+  },
+  {
+   "k": "(6)",
+   "v": "()"
+  },
+  {
+   "k": "The cage with the MEP is saved in your backpack. Open it and hold the filled cage",
+   "v": "MEP  Faraday Case  Back Pack   Back Pack  "
+  },
+  {
+   "k": "The cage with the MEP is saved in your BAG. Open it and hold the filled cage",
+   "v": "MEP  Faraday Case  Back Pack   Back Pack  "
+  },
+  {
+   "k": "Press O to switch the scanner on. The lights show how near a ghost is. Walk toward the woman",
+   "v": "Scanner  “O”()      "
+  },
+  {
+   "k": "Tap the power button to switch the scanner on. The lights show how near a ghost is. Walk toward the woman",
+   "v": "Scanner       "
+  },
+  {
+   "k": "That is everything an agent needs to know. May you complete the mission. Good luck, Agent.",
+   "v": "   Mission   "
+  },
+  {
+   "k": "The EM needs an upgrade to take a Mirage ({1}% / {0}%). Press U at the NPC",
+   "v": "Mirage  EM   ({1}% / {0}%) NPC  U "
+  },
+  {
+   "k": "CREATE ON THE WEBSITE",
+   "v": " "
+  },
+  {
+   "k": "Do the robot check on the website, then sign in here",
+   "v": "   "
+  },
+  {
+   "k": "DAY {0}",
+   "v": " {0}"
+  },
+  {
+   "k": "Picture ready to share",
+   "v": "  "
+  },
+  {
+   "k": "Picture saved in Pictures / Leikpyar Hunters",
+   "v": " Pictures / Leikpyar Hunters  "
+  },
+  {
+   "k": "The picture could not be taken",
+   "v": " "
+  },
+  {
+   "k": "The picture could not be saved",
+   "v": " "
+  },
+  {
+   "k": "Inhaler",
+   "v": ""
+  },
+  {
+   "k": "BUY",
+   "v": ""
+  },
+  {
+   "k": "PRICE {0} POINTS",
+   "v": " {0} "
+  },
+  {
+   "k": "You have {0} / {1}",
+   "v": " {0} / {1} "
+  },
+  {
+   "k": "Bought 1 Inhaler",
+   "v": "   "
+  },
+  {
+   "k": "You can not carry more Inhalers",
+   "v": " "
+  },
+  {
+   "k": "Not enough points: an Inhaler costs {0}",
+   "v": " -  {0} "
+  },
+  {
+   "k": "No hotbar",
+   "v": ""
+  },
+  {
+   "k": "GAME OVER",
+   "v": ""
+  },
+  {
+   "k": "THE GHOST CAUGHT YOU",
+   "v": "  "
+  },
+  {
+   "k": "DAY",
+   "v": ""
+  },
+  {
+   "k": "SOULS SEALED",
+   "v": " "
+  },
+  {
+   "k": "CAGES CHECKED",
+   "v": " "
+  },
+  {
+   "k": "NIGHTS SURVIVED",
+   "v": " "
+  },
+  {
+   "k": "Sign in to put your score on the board",
+   "v": "   "
+  },
+  {
+   "k": "TRY AGAIN",
+   "v": ""
+  },
+  {
+   "k": "MAIN MENU",
+   "v": ""
+  },
+  {
+   "k": "Enter  try again        Esc  main menu",
+   "v": "Enter          Esc  "
+  },
+  {
+   "k": "SKIP TO 6 PM",
+   "v": "   "
+  },
+  {
+   "k": "It is 6 PM",
+   "v": "   "
+  },
+  {
+   "k": "Sign in from the main menu to save your game",
+   "v": "  "
+  },
+  {
+   "k": "Saving...",
+   "v": "..."
+  },
+  {
+   "k": "Game saved. Continue it from the main menu",
+   "v": "   "
+  },
+  {
+   "k": "The game could not be saved",
+   "v": " "
+  },
+  {
+   "k": "The training can not be saved",
+   "v": " "
+  },
+  {
+   "k": "Saved game loaded",
+   "v": " "
+  },
+  {
+   "k": "Loading the saved game",
+   "v": " "
+  },
+  {
+   "k": "No saved game",
+   "v": "  "
+  },
+  {
+   "k": "DAY {0}  ·  {1}",
+   "v": " {0}  ·  {1}"
+  },
+  {
+   "k": "Too many saves. Wait a few minutes.",
+   "v": "   "
+  },
+  {
+   "k": "Letter",
+   "v": ""
+  },
+  {
+   "k": "An old letter.",
+   "v": " "
+  },
+  {
+   "k": "Click to read",
+   "v": " "
+  },
+  {
+   "k": "Click anywhere or press Esc to close",
+   "v": "    Esc "
+  },
+  {
+   "k": "Tap anywhere to close",
+   "v": "  "
+  },
+  {
+   "k": "LEIKPYAR",
+   "v": ""
+  },
+  {
+   "k": "PRESS ANY KEY TO ENTER",
+   "v": "  "
+  },
+  {
+   "k": "TAP TO ENTER",
+   "v": "  "
+  },
+  {
+   "k": "PRESS ENTER TO CONTINUE",
+   "v": " Enter  "
+  },
+  {
+   "k": "Hide the Safari toolbar",
+   "v": "Safari  "
+  },
+  {
+   "k": "Tap aA in the address bar, then tap Hide Toolbar.",
+   "v": " aA   Hide Toolbar  "
+  },
+  {
+   "k": "For no toolbar at all: tap Share, choose \"Add to Home Screen\", then open the game from the new icon.",
+   "v": "  Share   \"Add to Home Screen\"      "
+  },
+  {
+   "k": "Tap Play Fullscreen",
+   "v": "Play Fullscreen  "
+  },
+  {
+   "k": "The browser bar goes away",
+   "v": " "
+  },
+  {
+   "k": "Tap aA in the address bar",
+   "v": " aA  "
+  },
+  {
+   "k": "Tap Hide Toolbar",
+   "v": "Hide Toolbar  "
+  },
+  {
+   "k": "Done: the toolbar is hidden",
+   "v": " -  "
+  },
+  {
+   "k": "FULL SCREEN",
+   "v": ""
+  },
+  {
+   "k": "TAP AGAIN TO LEAVE",
+   "v": " "
+  },
+  {
+   "k": "GENDER",
+   "v": "/"
+  },
+  {
+   "k": "MALE",
+   "v": ""
+  },
+  {
+   "k": "FEMALE",
+   "v": ""
+  },
+  {
+   "k": "CHOOSE YOUR GENDER",
+   "v": "/ "
+  },
+  {
+   "k": "Choose Male or Female to continue.",
+   "v": "    "
+  },
+  {
+   "k": "Choose Male or Female",
+   "v": "   "
+  },
+  {
+   "k": "Proton Emitter Gun",
+   "v": ""
+  },
+  {
+   "k": "EMF Scanner",
+   "v": ""
+  },
+  {
+   "k": "EM-Tethering Machine",
+   "v": ""
+  },
+  {
+   "k": "Molecular Encapsulation Phial - MEP",
+   "v": ""
+  },
+  {
+   "k": "Bio-cellular Injector",
+   "v": ""
+  },
+  {
+   "k": "{0} a night",
+   "v": " {0} "
+  },
+  {
+   "k": "NEXT: {0} A NIGHT = {1} POINTS",
+   "v": " -  {0}  =  {1}"
+  },
+  {
+   "k": "MOST",
+   "v": ""
+  },
+  {
+   "k": "MEP is already at the most: {0} a night",
+   "v": "MEP   -  {0} "
+  },
+  {
+   "k": "Not enough points: {0} are needed for {1} MEP a night",
+   "v": " -  MEP {1}   {0} "
+  },
+  {
+   "k": "MEP {0} > {1} a night   (-{2} points)",
+   "v": "MEP  {0} > {1}    (- {2})"
+  },
+  {
+   "k": "No more MEP tonight ({0} / {1}). Upgrade the MEP at the NPC (U)",
+   "v": " MEP  ({0} / {1}) NPC  (U)  MEP  "
+  },
+  {
+   "k": "You don't have enough MEP left",
+   "v": " MEP "
+  }
+ ],
+ "chars": ""
+}
