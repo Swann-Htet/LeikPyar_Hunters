@@ -143,14 +143,17 @@ The upload tools use an SSH key (`~/.ssh/lh_deploy`) or the `LH_SSH_PASSWORD` va
 
 ## 11. Opening the code in Unity
 
-This repository holds the **code**, not the whole Unity project. Third-party packages and the team's 3D art are excluded.
+This repository holds the **project files that are ours and are text**: the C# code, the shaders, the WebGL plugins, the three scenes
+(`IntroScene`, `SampleScene`, `TutorialScene`), our prefabs, materials and small ScriptableObjects, the project settings and the package list.
+It does **not** hold the binary art (3D models, textures, sounds, music, video) or third-party packages.
 
-To run the scripts in Unity:
+To open it in Unity:
 
-1. Create a Unity 6 project (6000.0.46f1) with the Universal Render Pipeline.
-2. Copy `Unity/Assets/*`, `Unity/Packages/manifest.json` and `Unity/ProjectSettings/ProjectVersion.txt` into it.
-3. Packages come from `manifest.json` (glTFast, AI Navigation, Input System, URP, UGUI).
-4. Bring your own models and sounds, or ask the team for the art under licence.
+1. Make a new empty folder and copy the whole `Unity/` folder into it (it has `Assets`, `Packages`, `ProjectSettings`).
+2. Open that folder with Unity 6000.0.46f1. Unity installs the packages from `Packages/manifest.json` (URP, glTFast, AI Navigation, Input System, UGUI).
+3. Open `Assets/Scenes/IntroScene.unity`. The scenes, prefabs and materials load, but every model, texture and sound they point to is **missing** until the art
+   is added back (Unity shows empty or pink objects and "Missing" slots). The scripts, the wiring between them and their settings are all there to read.
+4. To get a playable build, add the art (ask the team for it under licence, or use your own at the same paths) and the third-party packages listed below.
 
 **What is left out and why**
 

@@ -85,16 +85,16 @@ On a phone the game shows a joystick, a look pad and big buttons, and asks the p
 ## 8. REPOSITORY CONTENTS
 
 ```
-Unity/            the game (C# scripts, shaders, WebGL plugins, package list, Burmese text pipeline)
+Unity/            the game project: C# scripts, shaders, WebGL plugins, the 3 scenes, our prefabs and materials, project settings, package list, Burmese text pipeline
 Website/          the website (HTML/CSS/JS), the admin panel, and the Python server
 Deploy/           the upload tools (no passwords in them)
 TECHNICAL_NOTES.md   how it is built (architecture, systems, WebGL, server, security)
 LICENSE.md        rights and third-party credits
 ```
 
-The Unity folder contains **our own code and shaders only**. The 3D models, textures, sounds and the paid or third-party packages are **not**
-in this repository (their licences do not allow it, and the 3D art is protected on purpose). See `TECHNICAL_NOTES.md` section 11
-for how to open the code in Unity and for the list of what is left out.
+The Unity folder contains **our own code, scenes, prefabs, materials and project settings**. The 3D models, textures, sounds and the paid or third-party packages
+are **not** in this repository (their licences do not allow it, and the 3D art is protected on purpose), so a scene opened from this repository
+shows missing models until the art is added. See `TECHNICAL_NOTES.md` section 11 for how to open it in Unity and for the list of what is left out.
 
 ## 9. TEAM
 
