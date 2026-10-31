@@ -3,7 +3,9 @@
 > **Play it now, in your browser (phone or PC): <https://leikpyarhunters.org/play/>**
 > Website, 3D gallery and leaderboard: <https://leikpyarhunters.org/>
 
-![Leikpyar Hunters](Website/site/img/og-image.jpg)
+<p align="center">
+  <img src="docs/poster.webp" width="460" alt="Leikpyar Hunters (Spectral Agents) - Spells are obsolete. Science is the new hunt.">
+</p>
 
 ## 1. GAME IDENTITY
 
